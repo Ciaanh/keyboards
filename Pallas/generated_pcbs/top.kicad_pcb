@@ -1,4 +1,4 @@
-(kicad_pcb (version 20171130) (host pcbnew "(5.1.4)-1")
+(kicad_pcb (version 20171130) (host pcbnew 5.1.6-c6e7f7d~86~ubuntu20.04.1)
 
   (general
     (thickness 1.6)
@@ -23,8 +23,8 @@
     (39 F.Mask user)
     (40 Dwgs.User user)
     (41 Cmts.User user)
-    (42 Eco1.User user)
-    (43 Eco2.User user)
+    (42 Eco1.User user hide)
+    (43 Eco2.User user hide)
     (44 Edge.Cuts user)
     (45 Margin user)
     (46 B.CrtYd user)
@@ -87,7 +87,7 @@
       (mirror false)
       (drillshape 0)
       (scaleselection 1)
-      (outputdirectory "gerber/top/"))
+      (outputdirectory "pallas/"))
   )
 
   (net 0 "")
@@ -102,7 +102,7 @@
     (uvia_drill 0.1)
   )
 
-  (module keyboard:Ciaanh_signature (layer F.Cu) (tedit 5ED2C585) (tstamp 5ED35E00)
+  (module Pallas:Ciaanh_signature (layer F.Cu) (tedit 5ED2C585) (tstamp 5ED35E00)
     (at 72.9496 68.7784 270)
     (fp_text reference LogoBaseMiddleTop (at 0.13 6.04 270) (layer F.SilkS) hide
       (effects (font (size 1.524 1.524) (thickness 0.3)))
@@ -852,7 +852,7 @@
     )
   )
 
-  (module keyboard:MountingHole_2.2mm_M2_Pad_Via (layer F.Cu) (tedit 56DDB9C7) (tstamp 5ED17AC5)
+  (module Pallas:MountingHole_2.2mm_M2_Pad_Via (layer F.Cu) (tedit 56DDB9C7) (tstamp 5ED17AC5)
     (at 368.8996 48.8784)
     (descr "Mounting Hole 2.2mm, M2")
     (tags "mounting hole 2.2mm m2")
@@ -879,7 +879,7 @@
     (pad 1 thru_hole circle (at 1.166726 -1.166726) (size 0.7 0.7) (drill 0.4) (layers *.Cu *.Mask))
   )
 
-  (module keyboard:MountingHole_2.2mm_M2_Pad_Via (layer F.Cu) (tedit 56DDB9C7) (tstamp 5ED17A94)
+  (module Pallas:MountingHole_2.2mm_M2_Pad_Via (layer F.Cu) (tedit 56DDB9C7) (tstamp 5ED17A94)
     (at 208.8996 48.8784)
     (descr "Mounting Hole 2.2mm, M2")
     (tags "mounting hole 2.2mm m2")
@@ -906,7 +906,7 @@
     (pad 1 thru_hole circle (at 1.166726 -1.166726) (size 0.7 0.7) (drill 0.4) (layers *.Cu *.Mask))
   )
 
-  (module keyboard:MountingHole_2.2mm_M2_Pad_Via (layer F.Cu) (tedit 56DDB9C7) (tstamp 5EB6E489)
+  (module Pallas:MountingHole_2.2mm_M2_Pad_Via (layer F.Cu) (tedit 56DDB9C7) (tstamp 5EB6E489)
     (at 421.3996 136.3784)
     (descr "Mounting Hole 2.2mm, M2")
     (tags "mounting hole 2.2mm m2")
@@ -933,7 +933,7 @@
     (pad 1 thru_hole circle (at 0 0) (size 4.4 4.4) (drill 2.2) (layers *.Cu *.Mask))
   )
 
-  (module keyboard:MountingHole_2.2mm_M2_Pad_Via (layer F.Cu) (tedit 56DDB9C7) (tstamp 5EB6E482)
+  (module Pallas:MountingHole_2.2mm_M2_Pad_Via (layer F.Cu) (tedit 56DDB9C7) (tstamp 5EB6E482)
     (at 121.3996 136.3784)
     (descr "Mounting Hole 2.2mm, M2")
     (tags "mounting hole 2.2mm m2")
@@ -960,7 +960,7 @@
     (pad 1 thru_hole circle (at 0 0) (size 4.4 4.4) (drill 2.2) (layers *.Cu *.Mask))
   )
 
-  (module keyboard:MountingHole_2.2mm_M2_Pad_Via (layer F.Cu) (tedit 56DDB9C7) (tstamp 5EB6E489)
+  (module Pallas:MountingHole_2.2mm_M2_Pad_Via (layer F.Cu) (tedit 56DDB9C7) (tstamp 5EB6E489)
     (at 448.918 80.1114)
     (descr "Mounting Hole 2.2mm, M2")
     (tags "mounting hole 2.2mm m2")
@@ -987,7 +987,7 @@
     (pad 1 thru_hole circle (at 0 0) (size 4.4 4.4) (drill 2.2) (layers *.Cu *.Mask))
   )
 
-  (module keyboard:MountingHole_2.2mm_M2_Pad_Via (layer F.Cu) (tedit 56DDB9C7) (tstamp 5EB6E482)
+  (module Pallas:MountingHole_2.2mm_M2_Pad_Via (layer F.Cu) (tedit 56DDB9C7) (tstamp 5EB6E482)
     (at 128.818 80.1114)
     (descr "Mounting Hole 2.2mm, M2")
     (tags "mounting hole 2.2mm m2")
@@ -1014,7 +1014,7 @@
     (pad 1 thru_hole circle (at 0 0) (size 4.4 4.4) (drill 2.2) (layers *.Cu *.Mask))
   )
 
-  (module keyboard:MountingHole_2.2mm_M2_Pad_Via (layer F.Cu) (tedit 56DDB9C7) (tstamp 5EB6E489)
+  (module Pallas:MountingHole_2.2mm_M2_Pad_Via (layer F.Cu) (tedit 56DDB9C7) (tstamp 5EB6E489)
     (at 368.8488 92.8784)
     (descr "Mounting Hole 2.2mm, M2")
     (tags "mounting hole 2.2mm m2")
@@ -1041,7 +1041,7 @@
     (pad 1 thru_hole circle (at 0 0) (size 4.4 4.4) (drill 2.2) (layers *.Cu *.Mask))
   )
 
-  (module keyboard:MountingHole_2.2mm_M2_Pad_Via (layer F.Cu) (tedit 56DDB9C7) (tstamp 5EB6E482)
+  (module Pallas:MountingHole_2.2mm_M2_Pad_Via (layer F.Cu) (tedit 56DDB9C7) (tstamp 5EB6E482)
     (at 208.8488 92.8784)
     (descr "Mounting Hole 2.2mm, M2")
     (tags "mounting hole 2.2mm m2")
@@ -1068,7 +1068,7 @@
     (pad 1 thru_hole circle (at 0 0) (size 4.4 4.4) (drill 2.2) (layers *.Cu *.Mask))
   )
 
-  (module keyboard:MountingHole_2.2mm_M2_Pad_Via (layer F.Cu) (tedit 56DDB9C7) (tstamp 5EB6E357)
+  (module Pallas:MountingHole_2.2mm_M2_Pad_Via (layer F.Cu) (tedit 56DDB9C7) (tstamp 5EB6E357)
     (at 316.3996 45.8784)
     (descr "Mounting Hole 2.2mm, M2")
     (tags "mounting hole 2.2mm m2")
@@ -1095,7 +1095,7 @@
     (pad 1 thru_hole circle (at 0 0) (size 4.4 4.4) (drill 2.2) (layers *.Cu *.Mask))
   )
 
-  (module keyboard:MountingHole_2.2mm_M2_Pad_Via (layer F.Cu) (tedit 56DDB9C7) (tstamp 5EB6E357)
+  (module Pallas:MountingHole_2.2mm_M2_Pad_Via (layer F.Cu) (tedit 56DDB9C7) (tstamp 5EB6E357)
     (at 261.3996 45.8784)
     (descr "Mounting Hole 2.2mm, M2")
     (tags "mounting hole 2.2mm m2")
@@ -1122,7 +1122,7 @@
     (pad 1 thru_hole circle (at 0 0) (size 4.4 4.4) (drill 2.2) (layers *.Cu *.Mask))
   )
 
-  (module keyboard:MountingHole_2.2mm_M2_Pad_Via (layer F.Cu) (tedit 56DDB9C7) (tstamp 5EB6E357)
+  (module Pallas:MountingHole_2.2mm_M2_Pad_Via (layer F.Cu) (tedit 56DDB9C7) (tstamp 5EB6E357)
     (at 248.8488 147.8784)
     (descr "Mounting Hole 2.2mm, M2")
     (tags "mounting hole 2.2mm m2")
@@ -1149,7 +1149,7 @@
     (pad 1 thru_hole circle (at 0 0) (size 4.4 4.4) (drill 2.2) (layers *.Cu *.Mask))
   )
 
-  (module keyboard:MountingHole_2.2mm_M2_Pad_Via (layer F.Cu) (tedit 56DDB9C7) (tstamp 5EB6E357)
+  (module Pallas:MountingHole_2.2mm_M2_Pad_Via (layer F.Cu) (tedit 56DDB9C7) (tstamp 5EB6E357)
     (at 328.8488 147.8784)
     (descr "Mounting Hole 2.2mm, M2")
     (tags "mounting hole 2.2mm m2")
@@ -1176,7 +1176,7 @@
     (pad 1 thru_hole circle (at 0 0) (size 4.4 4.4) (drill 2.2) (layers *.Cu *.Mask))
   )
 
-  (module keyboard:MountingHole_2.2mm_M2_Pad_Via (layer F.Cu) (tedit 56DDB9C7) (tstamp 5EB6E357)
+  (module Pallas:MountingHole_2.2mm_M2_Pad_Via (layer F.Cu) (tedit 56DDB9C7) (tstamp 5EB6E357)
     (at 526.3996 136.3784)
     (descr "Mounting Hole 2.2mm, M2")
     (tags "mounting hole 2.2mm m2")
@@ -1203,7 +1203,7 @@
     (pad 1 thru_hole circle (at 0 0) (size 4.4 4.4) (drill 2.2) (layers *.Cu *.Mask))
   )
 
-  (module keyboard:MountingHole_2.2mm_M2_Pad_Via (layer F.Cu) (tedit 56DDB9C7) (tstamp 5EB6E357)
+  (module Pallas:MountingHole_2.2mm_M2_Pad_Via (layer F.Cu) (tedit 56DDB9C7) (tstamp 5EB6E357)
     (at 526.3996 43.8784)
     (descr "Mounting Hole 2.2mm, M2")
     (tags "mounting hole 2.2mm m2")
@@ -1230,7 +1230,7 @@
     (pad 1 thru_hole circle (at 0 0) (size 4.4 4.4) (drill 2.2) (layers *.Cu *.Mask))
   )
 
-  (module keyboard:MountingHole_2.2mm_M2_Pad_Via (layer F.Cu) (tedit 56DDB9C7) (tstamp 5EB6E357)
+  (module Pallas:MountingHole_2.2mm_M2_Pad_Via (layer F.Cu) (tedit 56DDB9C7) (tstamp 5EB6E357)
     (at 68.8996 136.3784)
     (descr "Mounting Hole 2.2mm, M2")
     (tags "mounting hole 2.2mm m2")
@@ -1257,7 +1257,7 @@
     (pad 1 thru_hole circle (at 0 0) (size 4.4 4.4) (drill 2.2) (layers *.Cu *.Mask))
   )
 
-  (module keyboard:MountingHole_2.2mm_M2_Pad_Via (layer F.Cu) (tedit 56DDB9C7) (tstamp 5EB6E356)
+  (module Pallas:MountingHole_2.2mm_M2_Pad_Via (layer F.Cu) (tedit 56DDB9C7) (tstamp 5EB6E356)
     (at 68.8996 43.8784)
     (descr "Mounting Hole 2.2mm, M2")
     (tags "mounting hole 2.2mm m2")
@@ -1580,10 +1580,6 @@
   (gr_line (start 488.735 115.185) (end 474.765 115.185) (layer Edge.Cuts) (width 0.05))
   (gr_line (start 474.765 101.215) (end 488.735 101.215) (layer Edge.Cuts) (width 0.05))
   (gr_line (start 474.765 115.185) (end 474.765 101.215) (layer Edge.Cuts) (width 0.05))
-  (gr_line (start 337.212718 157.7848) (end 347.091 147.906518) (layer Edge.Cuts) (width 0.05))
-  (gr_line (start 347.091 167.663082) (end 337.212718 157.7848) (layer Edge.Cuts) (width 0.05))
-  (gr_line (start 356.969282 157.7848) (end 347.091 167.663082) (layer Edge.Cuts) (width 0.05))
-  (gr_line (start 347.091 147.906518) (end 356.969282 157.7848) (layer Edge.Cuts) (width 0.05))
   (gr_line (start 432.100576 125.048902) (end 445.765298 122.144376) (layer Edge.Cuts) (width 0.05))
   (gr_line (start 435.005102 138.713624) (end 432.100576 125.048902) (layer Edge.Cuts) (width 0.05))
   (gr_line (start 448.669824 135.809098) (end 435.005102 138.713624) (layer Edge.Cuts) (width 0.05))
@@ -1728,6 +1724,10 @@
   (gr_line (start 517.325 94.9166) (end 517.325 105.61) (layer Edge.Cuts) (width 0.05))
   (gr_line (start 503.34 82.115) (end 517.325 82.115) (layer Edge.Cuts) (width 0.05))
   (gr_line (start 503.34 105.61) (end 503.34 94.9166) (layer Edge.Cuts) (width 0.05))
+  (gr_line (start 337.212718 157.7848) (end 347.091 147.906518) (layer Edge.Cuts) (width 0.05))
+  (gr_line (start 347.091 167.663082) (end 337.212718 157.7848) (layer Edge.Cuts) (width 0.05))
+  (gr_line (start 356.969282 157.7848) (end 347.091 167.663082) (layer Edge.Cuts) (width 0.05))
+  (gr_line (start 347.091 147.906518) (end 356.969282 157.7848) (layer Edge.Cuts) (width 0.05))
   (gr_line (start 234.3996 49.4784) (end 255.3996 49.4784) (layer Edge.Cuts) (width 0.05) (tstamp 5ED2D1A9))
   (gr_arc (start 255.3996 52.4784) (end 258.3996 52.4784) (angle -90) (layer Edge.Cuts) (width 0.05))
   (gr_arc (start 234.3996 52.4784) (end 234.3996 49.4784) (angle -90) (layer Edge.Cuts) (width 0.05))
@@ -1761,7 +1761,7 @@
   (gr_line (start 363.8996 158.8784) (end 442.8996 141.3784) (layer Edge.Cuts) (width 0.05))
   (gr_line (start 343.8996 178.8784) (end 363.8996 158.8784) (layer Edge.Cuts) (width 0.05))
 
-  (zone (net 1) (net_name GND) (layer F.Cu) (tstamp 5ED2D19D) (hatch edge 0.508)
+  (zone (net 1) (net_name GND) (layer F.Cu) (tstamp 0) (hatch edge 0.508)
     (connect_pads (clearance 0.508))
     (min_thickness 0.254)
     (fill yes (arc_segments 32) (thermal_gap 0.508) (thermal_bridge_width 0.508))
@@ -1773,7 +1773,7 @@
       )
     )
   )
-  (zone (net 1) (net_name GND) (layer B.Cu) (tstamp 5ED2D19A) (hatch edge 0.508)
+  (zone (net 1) (net_name GND) (layer B.Cu) (tstamp 0) (hatch edge 0.508)
     (connect_pads (clearance 0.508))
     (min_thickness 0.254)
     (fill yes (arc_segments 32) (thermal_gap 0.508) (thermal_bridge_width 0.508))

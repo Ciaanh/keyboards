@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name Pallas)(type Legacy)(uri ${KIPRJMOD}/libraries/Pallas.lib)(options "")(descr ""))
+)
