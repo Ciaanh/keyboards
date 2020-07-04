@@ -41,6 +41,10 @@ def is_mount(module):
     return module.GetReference().startswith("Mount")
 
 
+def is_decorationhole(module):
+    return module.GetReference().startswith("DecorationHole")
+
+
 def is_for_base(module):
     index = module.GetReference().find("Base")
     return index > -1
@@ -58,7 +62,7 @@ def is_for_top(module):
 
 def delete_electronics(board):
     for module in board.GetModules():
-        if is_mount(module) or is_logo(module) or is_brace(module):
+        if is_mount(module) or is_logo(module) or is_brace(module) or is_decorationhole(module):
             continue
         board.Delete(module)
 
@@ -108,7 +112,7 @@ def generate_base_pcb():
     delete_electronics(board)
 
     for module in board.GetModules():
-        if is_brace(module) or is_mount(module) or is_logo(module):
+        if is_brace(module) or is_mount(module) or is_logo(module) or is_decorationhole(module):
             if not is_for_base(module):
                 board.Delete(module)
 
@@ -139,7 +143,7 @@ def generate_middle_pcb():
     print("Creating middle PCB: %s" % middle_pcb)
 
     for module in board.GetModules():
-        if is_brace(module) or is_mount(module) or is_logo(module):
+        if is_brace(module) or is_mount(module) or is_logo(module) or is_decorationhole(module):
             if not is_for_middle(module):
                 board.Delete(module)
 
@@ -172,7 +176,7 @@ def generate_top_pcb():
     delete_electronics(board)
 
     for module in board.GetModules():
-        if is_brace(module) or is_mount(module) or is_logo(module):
+        if is_brace(module) or is_mount(module) or is_logo(module) or is_decorationhole(module):
             if not is_for_top(module):
                 board.Delete(module)
 
