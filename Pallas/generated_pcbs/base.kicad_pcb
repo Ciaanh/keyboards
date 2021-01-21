@@ -1,4 +1,4 @@
-(kicad_pcb (version 20171130) (host pcbnew "(5.1.6)-1")
+(kicad_pcb (version 20171130) (host pcbnew 5.1.6-c6e7f7d~86~ubuntu20.04.1)
 
   (general
     (thickness 1.6)
@@ -23,8 +23,8 @@
     (39 F.Mask user)
     (40 Dwgs.User user)
     (41 Cmts.User user)
-    (42 Eco1.User user)
-    (43 Eco2.User user)
+    (42 Eco1.User user hide)
+    (43 Eco2.User user hide)
     (44 Edge.Cuts user)
     (45 Margin user)
     (46 B.CrtYd user)
@@ -87,7 +87,7 @@
       (mirror false)
       (drillshape 0)
       (scaleselection 1)
-      (outputdirectory "gerber/base/"))
+      (outputdirectory "pallas/"))
   )
 
   (net 0 "")
@@ -3524,7 +3524,7 @@
   (gr_line (start 363.8996 158.8784) (end 442.8996 141.3784) (layer Edge.Cuts) (width 0.05))
   (gr_line (start 343.8996 178.8784) (end 363.8996 158.8784) (layer Edge.Cuts) (width 0.05))
 
-  (zone (net 1) (net_name GND) (layer F.Cu) (tstamp 5FF78D69) (hatch edge 0.508)
+  (zone (net 1) (net_name GND) (layer F.Cu) (tstamp 0) (hatch edge 0.508)
     (connect_pads (clearance 0.508))
     (min_thickness 0.254)
     (fill yes (arc_segments 32) (thermal_gap 0.508) (thermal_bridge_width 0.508))
@@ -3536,7 +3536,7 @@
       )
     )
   )
-  (zone (net 1) (net_name GND) (layer B.Cu) (tstamp 5FF78D66) (hatch edge 0.508)
+  (zone (net 1) (net_name GND) (layer B.Cu) (tstamp 0) (hatch edge 0.508)
     (connect_pads (clearance 0.508))
     (min_thickness 0.254)
     (fill yes (arc_segments 32) (thermal_gap 0.508) (thermal_bridge_width 0.508))
