@@ -1,3 +1,20 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP Conn_02x10_Counter_Clockwise
+D Generic connector, double row, 02x10, counter clockwise pin numbering scheme (similar to DIP packge numbering), script generated (kicad-library-utils/schlib/autogen/connector/)
+K connector
+F ~
+$ENDCMP
+#
+$CMP GND_FLAG
+D Power symbol creates a global label with name "GNDPWR" , power ground
+K power-flag
+$ENDCMP
+#
+$CMP PWR_FLAG
+D Special symbol for telling ERC where power comes from
+K power-flag
+F ~
+$ENDCMP
+#
 #End Doc Library

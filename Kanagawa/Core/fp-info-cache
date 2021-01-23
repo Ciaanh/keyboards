@@ -1,0 +1,162 @@
+36722342871362
+core
+Diode_SMD_THT
+D, DO-35_SOD27 series, Axial, Horizontal, pin pitch=10.16mm, , length*diameter=4*2mm^2, , http://www.diodes.com/_files/packages/DO-35.pdf
+D DO-35_SOD27 series Axial Horizontal pin pitch 10.16mm  length 4mm diameter 2mm
+0
+4
+2
+core
+MountingHole_2.2mm_M2_Pad
+Mounting Hole 2.2mm, M2
+mounting hole 2.2mm m2
+0
+1
+1
+core
+MountingHole_2.2mm_M2_Pad_Via
+Mounting Hole 2.2mm, M2
+mounting hole 2.2mm m2
+0
+9
+1
+core
+OLED_128x32_I2C
+
+OLED 0.96 inch 128x64 I2C
+0
+4
+4
+core
+OLED_128x64_I2C
+
+OLED 0.96 inch 128x64 I2C
+0
+4
+4
+core
+Pro_Micro
+
+
+0
+24
+24
+core
+Resistors_SMD_THT
+D, DO-35_SOD27 series, Axial, Horizontal, pin pitch=10.16mm, , length*diameter=4*2mm^2, , http://www.diodes.com/_files/packages/DO-35.pdf
+D DO-35_SOD27 series Axial Horizontal pin pitch 10.16mm  length 4mm diameter 2mm
+0
+4
+2
+core
+SOT-23
+SOT-23, Standard
+SOT-23
+0
+6
+3
+core
+SW_Cherry_MX_1.00u_PCB
+
+
+0
+4
+4
+core
+SW_Cherry_MX_1.25u_PCB
+
+
+0
+4
+4
+core
+SW_Cherry_MX_1.50u_PCB
+
+
+0
+4
+4
+core
+SW_Cherry_MX_1.75u_PCB
+
+
+0
+4
+4
+core
+SW_Cherry_MX_2.00u_PCB
+
+
+0
+4
+4
+core
+SW_Cherry_MX_2.25u_PCB
+
+
+0
+4
+4
+core
+SW_Cherry_MX_2.50u_PCB
+
+
+0
+4
+4
+core
+SW_Cherry_MX_2.75u_PCB
+
+
+0
+4
+4
+core
+SW_Cherry_MX_ISO_PCB
+
+
+0
+4
+4
+core
+SW_RST
+
+
+0
+4
+3
+core
+WS2812B
+
+
+0
+8
+4
+core
+conn_2x10_P2.00mm_Vertical
+Through hole straight socket strip, 2x10, 2.00mm pitch, double cols (from Kicad 4.0.7), script generated
+Through hole socket strip THT 2x10 2.00mm double row
+0
+20
+20
+core
+conn_3pins
+
+
+0
+3
+3
+core
+conn_4pins
+Connecteur 6 pins
+CONN DEV
+0
+4
+4
+core
+hokusai
+
+
+0
+0
+0
