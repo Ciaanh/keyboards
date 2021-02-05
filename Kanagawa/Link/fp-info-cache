@@ -1,4 +1,4 @@
-18721002406605616
+18722614024806546
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -82251,10 +82251,10 @@ WS2812B_Front
 4
 keyboard
 bridge_2x10_P2.00mm
-Through hole straight socket strip, 2x10, 2.00mm pitch, double cols (from Kicad 4.0.7), script generated
-Through hole socket strip THT 2x10 2.00mm double row
+
+
 0
-20
+44
 20
 keyboard
 conn_2x10_P2.00mm_Vertical
@@ -82424,6 +82424,13 @@ WS2812B
 0
 8
 4
+link
+bridge_2x10_P2.00mm
+
+
+0
+44
+20
 link
 conn_2x10_P2.00mm_Vertical
 Through hole straight socket strip, 2x10, 2.00mm pitch, double cols (from Kicad 4.0.7), script generated
