@@ -1,4 +1,4 @@
-18722614024806546
+18726476650502651
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -82117,6 +82117,13 @@ OLED 0.96 inch 128x64 I2C
 4
 4
 keyboard
+PinHeader_2x15_P2.54mm_Vertical
+Through hole straight pin header, 2x15, 2.54mm pitch, double rows
+Through hole pin header THT 2x15 2.54mm double row
+0
+30
+30
+keyboard
 Pro_Micro
 
 
@@ -82250,12 +82257,12 @@ WS2812B_Front
 4
 4
 keyboard
-bridge_2x10_P2.00mm
+bridge_2x15_P2.54mm
 
 
 0
-44
-20
+64
+30
 keyboard
 conn_2x10_P2.00mm_Vertical
 Through hole straight socket strip, 2x10, 2.00mm pitch, double cols (from Kicad 4.0.7), script generated
@@ -82326,6 +82333,13 @@ OLED 0.96 inch 128x64 I2C
 0
 4
 4
+link
+PinHeader_2x15_P2.54mm_Vertical
+Through hole straight pin header, 2x15, 2.54mm pitch, double rows
+Through hole pin header THT 2x15 2.54mm double row
+0
+30
+30
 link
 Pro_Micro
 
@@ -82425,12 +82439,12 @@ WS2812B
 8
 4
 link
-bridge_2x10_P2.00mm
+bridge_2x15_P2.54mm
 
 
 0
-44
-20
+64
+30
 link
 conn_2x10_P2.00mm_Vertical
 Through hole straight socket strip, 2x10, 2.00mm pitch, double cols (from Kicad 4.0.7), script generated

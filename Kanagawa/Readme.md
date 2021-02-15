@@ -13,17 +13,43 @@ https://fr.farnell.com/harwin/m22-2021005/connect-header-20-voies-2-rangs/dp/339
 https://fr.farnell.com/harwin/m22-7141042/embase-femelle-verticale-dil-10/dp/1109738
 
 
+
+Link pins
+
+.   |    |  |    .
+----|----|--|-----  
+    | 01 |  |     
+    | 02 |  |     
+    | 03 |  |     
+    | 04 |  |     
+    | 05 |  |     
+    | 06 |  |     
+    | 07 |  |     
+    | 08 |  |     
+    | 09 |  |     
+    | 10 |  |     
+    | 11 |  |     
+    | 12 |  |     
+
+
+
+
+
 Pin out
 Atmega32u4
 
 
-oled 2 pins
+I2C (oled) 2 pins
 led 1 pin
 rgb 1 pin
 rotary 2 pin + 1 slot switch
 
 
 6 x 8 => 48
+
+8 x 14 => 112
+
+=> 28 pins for all features
 
 
 
