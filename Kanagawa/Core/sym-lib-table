@@ -1,4 +1,0 @@
-(sym_lib_table
-  (lib (name core)(type Legacy)(uri D:/Keyboard/keyboards/Kanagawa/Core/core.lib)(options "")(descr ""))
-  (lib (name Core-rescue)(type Legacy)(uri ${KIPRJMOD}/Core-rescue.lib)(options "")(descr ""))
-)
