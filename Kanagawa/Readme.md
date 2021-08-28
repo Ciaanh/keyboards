@@ -15,6 +15,8 @@ https://www.re-innovation.co.uk/docs/multiple-sheet-schematics-in-kicad/
 https://fr.farnell.com/harwin/m22-2021005/connect-header-20-voies-2-rangs/dp/3395130
 https://fr.farnell.com/harwin/m22-7141042/embase-femelle-verticale-dil-10/dp/1109738
 
+French accents
+https://www.languedoc121tech.fr/french-accented-characters-qwerty/
 
 
 Link pins
