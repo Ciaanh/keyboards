@@ -1,8 +1,11 @@
 http://www.keyboard-layout-editor.com/#/gists/16c88de775d4e0aa35cefe443daa3789
 
-http://www.keyboard-layout-editor.com/
-http://builder.swillkb.com/
-https://github.com/badgeek/svg2shenzhen
+
+
+Layout
+define layout in http://www.keyboard-layout-editor.com/
+create svg with http://builder.swillkb.com/
+export svg to kicad https://github.com/badgeek/svg2shenzhen
 inkscape
 import svg in Kicad to place switches
 
@@ -93,3 +96,7 @@ B4  |    |    |    |    |    |  B2
 B5  | B7 | D5 | C7 | F1 | F0 |  B6
 
 I/O => 24
+
+
+
+
