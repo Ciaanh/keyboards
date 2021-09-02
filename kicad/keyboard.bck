@@ -1,12 +1,16 @@
 EESchema-DOCLIB  Version 2.0
 #
 $CMP Conn_02x10_Counter_Clockwise
-D Generic connector, double row, 02x10, counter clockwise pin numbering scheme (similar to DIP packge numbering), script generated (kicad-library-utils/schlib/autogen/connector/)
 K connector
 F ~
 $ENDCMP
 #
 $CMP Conn_02x15_Counter_Clockwise
+K connector
+F ~
+$ENDCMP
+#
+$CMP Conn_02x16_Odd_Even
 K connector
 F ~
 $ENDCMP
