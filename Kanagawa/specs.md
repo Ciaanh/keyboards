@@ -3,7 +3,7 @@
 85(86) keys
 
 
-Matrix 6x15 => 90
+Matrix 6x14 => 84
 
 
 
