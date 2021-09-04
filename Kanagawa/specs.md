@@ -13,6 +13,10 @@ Matrix 6x14 => 84
 RGB => 1 pin
 
 
+oled display
+128x32   https://fr.farnell.com/midas/mdob128032gv-wi/afficheur-oled-cob-128-x-32-pixels/dp/3407291
+
+
 
 
 RP - Pico
