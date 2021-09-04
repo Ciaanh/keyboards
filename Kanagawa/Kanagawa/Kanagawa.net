@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source D:\Keyboards\git-keyboards\Kanagawa\Kanagawa\Kanagawa.sch)
-    (date "03/09/2021 15:12:44")
+    (date "04/09/2021 15:30:43")
     (tool "Eeschema (5.1.6)-1")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -17,7 +17,7 @@
   (components
     (comp (ref U0)
       (value Pico)
-      (footprint RP-Pico:RPi_Pico_SMD_TH)
+      (footprint keyboard:RPi_Pico_TH)
       (libsource (lib RP-Pico) (part Pico) (description ""))
       (sheetpath (names /) (tstamps /))
       (tstamp 612F4ADC))
@@ -941,7 +941,7 @@
       (tstamp 6175EF3B))
     (comp (ref J1)
       (value Conn_01x04)
-      (footprint keyboard:conn_4pins)
+      (footprint keyboard:OLED_128x64_I2C)
       (libsource (lib keyboard) (part Conn_01x04) (description ""))
       (sheetpath (names /) (tstamps /))
       (tstamp 751EBD82))
