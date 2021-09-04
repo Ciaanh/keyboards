@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source D:\Keyboards\git-keyboards\Kanagawa\Kanagawa\Kanagawa.sch)
-    (date "03/09/2021 09:45:01")
+    (date "03/09/2021 15:12:44")
     (tool "Eeschema (5.1.6)-1")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -881,7 +881,7 @@
       (tstamp 6175EE79))
     (comp (ref KC12)
       (value KEY_SW)
-      (footprint keyboard:SW_Cherry_MX_1.50u_SK6812MINI)
+      (footprint keyboard:SW_Cherry_MX_1.00u_SK6812MINI)
       (libsource (lib keyboard) (part KEY_SW_RGB) (description ""))
       (sheetpath (names /) (tstamps /))
       (tstamp 6175EE91))
@@ -1031,7 +1031,7 @@
       (tstamp 6175EE9A))
     (comp (ref KC13)
       (value KEY_SW)
-      (footprint keyboard:SW_Cherry_MX_1.00u_SK6812MINI)
+      (footprint keyboard:SW_Cherry_MX_1.50u_SK6812MINI)
       (libsource (lib keyboard) (part KEY_SW_RGB) (description ""))
       (sheetpath (names /) (tstamps /))
       (tstamp 6175EF5D))
