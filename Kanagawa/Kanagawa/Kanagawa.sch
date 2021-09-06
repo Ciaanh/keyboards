@@ -3644,12 +3644,6 @@ Wire Wire Line
 Wire Wire Line
 	20430 7240 20740 7240
 Wire Wire Line
-	19700 6410 20430 6410
-Wire Wire Line
-	20430 6410 20430 6310
-Wire Wire Line
-	20430 6310 20740 6310
-Wire Wire Line
 	18240 5480 18970 5480
 Wire Wire Line
 	18970 5480 18970 5380
@@ -4071,9 +4065,6 @@ Text GLabel 1880 9100 0    50   Input ~ 0
 LEDR4
 Wire Wire Line
 	1880 9100 2060 9100
-Wire Wire Line
-	1880 10030 2060 10030
-NoConn ~ 1880 10030
 Text GLabel 21140 7340 2    50   Input ~ 0
 LEDR1
 $Comp
@@ -5098,7 +5089,7 @@ Wire Wire Line
 	16100 10130 16100 10030
 Connection ~ 16310 8950
 Connection ~ 15740 10370
-Text GLabel 21140 10130 2    50   Input ~ 0
+Text GLabel 19700 10130 2    50   Input ~ 0
 LEDR4
 $Comp
 L keyboard:VCC #PWR0273
@@ -5147,8 +5138,6 @@ Wire Wire Line
 	18970 10130 18970 10030
 Wire Wire Line
 	18240 10130 18970 10130
-Wire Wire Line
-	19700 10130 20430 10130
 Wire Wire Line
 	16310 8950 16310 9880
 Wire Wire Line
@@ -5343,7 +5332,7 @@ Wire Wire Line
 	18590 9440 20050 9440
 Wire Wire Line
 	18970 9200 18970 9100
-Text GLabel 21140 9200 2    50   Input ~ 0
+Text GLabel 19700 9200 2    50   Input ~ 0
 LEDR3
 $Comp
 L keyboard:VCC #PWR0281
@@ -5358,8 +5347,6 @@ F 3 "" H 19300 9200 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	18970 9100 19300 9100
-Wire Wire Line
-	19700 9200 20430 9200
 Wire Wire Line
 	19200 8950 19200 9880
 $Comp
@@ -5463,8 +5450,6 @@ F 3 "" H 20050 8170 50  0001 C CNN
 	1    20050 8170
 	0    -1   -1   0   
 $EndComp
-Wire Wire Line
-	19700 8270 20430 8270
 $Comp
 L keyboard:KEY_SW_RGB KC13
 U 1 1 6175EF5D
@@ -5478,8 +5463,6 @@ F 3 "" H 20940 7090 50  0000 C CNN
 $EndComp
 Wire Wire Line
 	21490 8510 20050 8510
-Wire Wire Line
-	20430 8270 20430 8170
 Connection ~ 20640 7090
 $Comp
 L keyboard:VCC #PWR0285
@@ -5492,23 +5475,8 @@ F 3 "" H 20740 8270 50  0001 C CNN
 	1    20740 8270
 	-1   0    0    1   
 $EndComp
-Text GLabel 21140 8270 2    50   Input ~ 0
+Text GLabel 19700 8270 2    50   Input ~ 0
 LEDR2
-Wire Wire Line
-	20430 8170 20740 8170
-Wire Wire Line
-	20640 7090 20640 8020
-$Comp
-L keyboard:KEY_SW_RGB KD13
-U 1 1 6175EF7E
-P 20940 8020
-F 0 "KD13" H 20940 8275 50  0000 C CNN
-F 1 "KEY_SW" H 20940 8184 50  0000 C CNN
-F 2 "keyboard:SW_Cherry_MX_1.25u_SK6812MINI" H 20940 8020 50  0001 C CNN
-F 3 "" H 20940 8020 50  0000 C CNN
-	1    20940 8020
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	21490 8320 21490 8510
 Wire Wire Line
@@ -5554,9 +5522,6 @@ F 3 "" H 21490 5380 50  0001 C CNN
 $EndComp
 Connection ~ 20050 9440
 Wire Wire Line
-	20640 8020 20640 8950
-Connection ~ 20640 8020
-Wire Wire Line
 	20640 8950 20640 9880
 Connection ~ 20640 8950
 Wire Wire Line
@@ -5568,13 +5533,52 @@ Wire Wire Line
 	21490 9250 21490 9440
 Wire Wire Line
 	20050 9440 21490 9440
-Wire Wire Line
-	20430 9200 20430 9100
-Wire Wire Line
-	20430 9100 20740 9100
-Wire Wire Line
-	20430 10130 20430 10030
-Wire Wire Line
-	20430 10030 20740 10030
 NoConn ~ 2350 1940
+Wire Wire Line
+	19710 6410 20430 6410
+Wire Wire Line
+	20430 6410 20430 6310
+Wire Wire Line
+	20430 6310 20740 6310
+Wire Wire Line
+	20640 8020 20640 8950
+Wire Wire Line
+	20640 7090 20640 8020
+Connection ~ 20640 8020
+$Comp
+L keyboard:KEY_SW_RGB KD13
+U 1 1 6175EF7E
+P 20940 8020
+F 0 "KD13" H 20940 8275 50  0000 C CNN
+F 1 "KEY_SW" H 20940 8184 50  0000 C CNN
+F 2 "keyboard:SW_Cherry_MX_1.25u_SK6812MINI" H 20940 8020 50  0001 C CNN
+F 3 "" H 20940 8020 50  0000 C CNN
+	1    20940 8020
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	21140 10130 21200 10130
+Wire Wire Line
+	21200 10130 21200 9550
+Wire Wire Line
+	21200 9550 20550 9550
+Wire Wire Line
+	20550 9550 20550 9100
+Wire Wire Line
+	20550 9100 20740 9100
+Wire Wire Line
+	21140 9200 21210 9200
+Wire Wire Line
+	21210 9200 21210 8600
+Wire Wire Line
+	21210 8600 20550 8600
+Wire Wire Line
+	20550 8600 20550 8170
+Wire Wire Line
+	20550 8170 20740 8170
+Text GLabel 2060 10030 0    50   Input ~ 0
+LEDR5
+Text GLabel 21140 8270 2    50   Input ~ 0
+LEDR5
+NoConn ~ 20740 10030
 $EndSCHEMATC

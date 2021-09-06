@@ -19,7 +19,7 @@ U 1 1 612F4ADC
 P 1650 2290
 F 0 "U0" H 1650 3505 50  0000 C CNN
 F 1 "Pico" H 1650 3414 50  0000 C CNN
-F 2 "RP-Pico:RPi_Pico_SMD_TH" V 1650 2290 50  0001 C CNN
+F 2 "keyboard:RPi_Pico_TH" V 1650 2290 50  0001 C CNN
 F 3 "" H 1650 2290 50  0001 C CNN
 	1    1650 2290
 	1    0    0    -1  
@@ -3644,12 +3644,6 @@ Wire Wire Line
 Wire Wire Line
 	20430 7240 20740 7240
 Wire Wire Line
-	19700 6410 20430 6410
-Wire Wire Line
-	20430 6410 20430 6310
-Wire Wire Line
-	20430 6310 20740 6310
-Wire Wire Line
 	18240 5480 18970 5480
 Wire Wire Line
 	18970 5480 18970 5380
@@ -4073,7 +4067,6 @@ Wire Wire Line
 	1880 9100 2060 9100
 Wire Wire Line
 	1880 10030 2060 10030
-NoConn ~ 1880 10030
 Text GLabel 21140 7340 2    50   Input ~ 0
 LEDR1
 $Comp
@@ -5098,7 +5091,7 @@ Wire Wire Line
 	16100 10130 16100 10030
 Connection ~ 16310 8950
 Connection ~ 15740 10370
-Text GLabel 21140 10130 2    50   Input ~ 0
+Text GLabel 19700 10130 2    50   Input ~ 0
 LEDR4
 $Comp
 L keyboard:VCC #PWR0273
@@ -5147,8 +5140,6 @@ Wire Wire Line
 	18970 10130 18970 10030
 Wire Wire Line
 	18240 10130 18970 10130
-Wire Wire Line
-	19700 10130 20430 10130
 Wire Wire Line
 	16310 8950 16310 9880
 Wire Wire Line
@@ -5343,7 +5334,7 @@ Wire Wire Line
 	18590 9440 20050 9440
 Wire Wire Line
 	18970 9200 18970 9100
-Text GLabel 21140 9200 2    50   Input ~ 0
+Text GLabel 19700 9200 2    50   Input ~ 0
 LEDR3
 $Comp
 L keyboard:VCC #PWR0281
@@ -5358,8 +5349,6 @@ F 3 "" H 19300 9200 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	18970 9100 19300 9100
-Wire Wire Line
-	19700 9200 20430 9200
 Wire Wire Line
 	19200 8950 19200 9880
 $Comp
@@ -5463,8 +5452,6 @@ F 3 "" H 20050 8170 50  0001 C CNN
 	1    20050 8170
 	0    -1   -1   0   
 $EndComp
-Wire Wire Line
-	19700 8270 20430 8270
 $Comp
 L keyboard:KEY_SW_RGB KC13
 U 1 1 6175EF5D
@@ -5478,8 +5465,6 @@ F 3 "" H 20940 7090 50  0000 C CNN
 $EndComp
 Wire Wire Line
 	21490 8510 20050 8510
-Wire Wire Line
-	20430 8270 20430 8170
 Connection ~ 20640 7090
 $Comp
 L keyboard:VCC #PWR0285
@@ -5492,10 +5477,8 @@ F 3 "" H 20740 8270 50  0001 C CNN
 	1    20740 8270
 	-1   0    0    1   
 $EndComp
-Text GLabel 21140 8270 2    50   Input ~ 0
+Text GLabel 19700 8270 2    50   Input ~ 0
 LEDR2
-Wire Wire Line
-	20430 8170 20740 8170
 Wire Wire Line
 	20640 7090 20640 8020
 $Comp
@@ -5568,13 +5551,30 @@ Wire Wire Line
 	21490 9250 21490 9440
 Wire Wire Line
 	20050 9440 21490 9440
-Wire Wire Line
-	20430 9200 20430 9100
-Wire Wire Line
-	20430 9100 20740 9100
-Wire Wire Line
-	20430 10130 20430 10030
-Wire Wire Line
-	20430 10030 20740 10030
 NoConn ~ 2350 1940
+Wire Wire Line
+	1880 10030 1880 10540
+Wire Wire Line
+	1880 10540 21140 10540
+Wire Wire Line
+	21140 10540 21140 10130
+Wire Wire Line
+	20740 10030 20740 9490
+Wire Wire Line
+	20740 9490 21140 9490
+Wire Wire Line
+	21140 9490 21140 9200
+Wire Wire Line
+	20740 8580 21140 8580
+Wire Wire Line
+	21140 8580 21140 8270
+Wire Wire Line
+	19710 6410 20430 6410
+Wire Wire Line
+	20430 6410 20430 6310
+Wire Wire Line
+	20430 6310 20740 6310
+Wire Wire Line
+	20740 8580 20740 9100
+NoConn ~ 20740 8170
 $EndSCHEMATC
