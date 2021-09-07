@@ -170,21 +170,21 @@ Text GLabel 950  3140 0    50   Input ~ 0
 col03
 Text GLabel 950  3240 0    50   Input ~ 0
 col04
-Text GLabel 2350 3240 2    50   Input ~ 0
-col05
-Text GLabel 2350 3140 2    50   Input ~ 0
-col06
-Text GLabel 2350 2940 2    50   Input ~ 0
-col07
-Text GLabel 2350 2840 2    50   Input ~ 0
-col08
-Text GLabel 2350 2740 2    50   Input ~ 0
-col09
-Text GLabel 2350 2640 2    50   Input ~ 0
-col10
-Text GLabel 2350 2440 2    50   Input ~ 0
-col11
 Text GLabel 2350 2240 2    50   Input ~ 0
+col05
+Text GLabel 2350 2440 2    50   Input ~ 0
+col06
+Text GLabel 2350 2640 2    50   Input ~ 0
+col07
+Text GLabel 2350 2740 2    50   Input ~ 0
+col08
+Text GLabel 2350 2840 2    50   Input ~ 0
+col09
+Text GLabel 2350 2940 2    50   Input ~ 0
+col10
+Text GLabel 2350 3140 2    50   Input ~ 0
+col11
+Text GLabel 2350 3240 2    50   Input ~ 0
 col12
 Text GLabel 2350 2140 2    50   Input ~ 0
 col13
@@ -270,10 +270,6 @@ Text GLabel 7390 2190 0    50   Input ~ 0
 ENCA
 Text GLabel 7390 2390 0    50   Input ~ 0
 ENCB
-Text GLabel 7990 2190 2    50   Input ~ 0
-SW99A
-Text GLabel 7990 2390 2    50   Input ~ 0
-SW99B
 $Comp
 L keyboard:D DA0
 U 1 1 6132D5CA
@@ -4065,8 +4061,6 @@ Text GLabel 1880 9100 0    50   Input ~ 0
 LEDR4
 Wire Wire Line
 	1880 9100 2060 9100
-Wire Wire Line
-	1880 10030 2060 10030
 Text GLabel 21140 7340 2    50   Input ~ 0
 LEDR1
 $Comp
@@ -4894,10 +4888,6 @@ F 3 "" H 20740 10130 50  0001 C CNN
 	1    20740 10130
 	-1   0    0    1   
 $EndComp
-Text GLabel 20640 5090 2    50   Input ~ 0
-SW99A
-Text GLabel 21240 5230 0    50   Input ~ 0
-SW99B
 $Comp
 L keyboard:GND #PWR0262
 U 1 1 75029F2B
@@ -5052,7 +5042,7 @@ SDA
 Text GLabel 5260 1700 2    50   Input ~ 0
 SCL
 Wire Wire Line
-	20640 4770 20640 6160
+	20640 4770 20640 5090
 Wire Wire Line
 	2460 10130 3080 10130
 Wire Wire Line
@@ -5176,8 +5166,6 @@ F 3 "" H 19830 10030 50  0001 C CNN
 	1    19830 10030
 	0    -1   -1   0   
 $EndComp
-Wire Wire Line
-	19700 10030 19830 10030
 $Comp
 L keyboard:D DF12
 U 1 1 6175EEDC
@@ -5480,19 +5468,6 @@ $EndComp
 Text GLabel 19700 8270 2    50   Input ~ 0
 LEDR2
 Wire Wire Line
-	20640 7090 20640 8020
-$Comp
-L keyboard:KEY_SW_RGB KD13
-U 1 1 6175EF7E
-P 20940 8020
-F 0 "KD13" H 20940 8275 50  0000 C CNN
-F 1 "KEY_SW" H 20940 8184 50  0000 C CNN
-F 2 "keyboard:SW_Cherry_MX_1.25u_SK6812MINI" H 20940 8020 50  0001 C CNN
-F 3 "" H 20940 8020 50  0000 C CNN
-	1    20940 8020
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
 	21490 8320 21490 8510
 Wire Wire Line
 	21240 8020 21490 8020
@@ -5537,9 +5512,6 @@ F 3 "" H 21490 5380 50  0001 C CNN
 $EndComp
 Connection ~ 20050 9440
 Wire Wire Line
-	20640 8020 20640 8950
-Connection ~ 20640 8020
-Wire Wire Line
 	20640 8950 20640 9880
 Connection ~ 20640 8950
 Wire Wire Line
@@ -5553,28 +5525,65 @@ Wire Wire Line
 	20050 9440 21490 9440
 NoConn ~ 2350 1940
 Wire Wire Line
-	1880 10030 1880 10540
+	20640 8020 20640 8950
 Wire Wire Line
-	1880 10540 21140 10540
+	20640 7090 20640 8020
+Connection ~ 20640 8020
+$Comp
+L keyboard:KEY_SW_RGB KD13
+U 1 1 6175EF7E
+P 20940 8020
+F 0 "KD13" H 20940 8275 50  0000 C CNN
+F 1 "KEY_SW" H 20940 8184 50  0000 C CNN
+F 2 "keyboard:SW_Cherry_MX_1.25u_SK6812MINI" H 20940 8020 50  0001 C CNN
+F 3 "" H 20940 8020 50  0000 C CNN
+	1    20940 8020
+	1    0    0    -1  
+$EndComp
 Wire Wire Line
-	21140 10540 21140 10130
+	21140 10130 21200 10130
 Wire Wire Line
-	20740 10030 20740 9490
+	21200 10130 21200 9550
 Wire Wire Line
-	20740 9490 21140 9490
+	21200 9550 20550 9550
 Wire Wire Line
-	21140 9490 21140 9200
+	20550 9550 20550 9100
 Wire Wire Line
-	20740 8580 21140 8580
+	20550 9100 20740 9100
 Wire Wire Line
-	21140 8580 21140 8270
+	21140 9200 21210 9200
 Wire Wire Line
-	19710 6410 20430 6410
+	21210 9200 21210 8600
 Wire Wire Line
-	20430 6410 20430 6310
+	21210 8600 20550 8600
 Wire Wire Line
-	20430 6310 20740 6310
+	20550 8600 20550 8170
 Wire Wire Line
-	20740 8580 20740 9100
-NoConn ~ 20740 8170
+	20550 8170 20740 8170
+Text GLabel 2060 10030 0    50   Input ~ 0
+LEDR5
+Text GLabel 21140 8270 2    50   Input ~ 0
+LEDR5
+NoConn ~ 20740 10030
+Wire Wire Line
+	20770 5090 20640 5090
+Connection ~ 20640 5090
+Wire Wire Line
+	20640 5090 20640 6160
+Wire Wire Line
+	19700 6410 20430 6410
+Wire Wire Line
+	20740 6310 20430 6310
+Wire Wire Line
+	20430 6310 20430 6410
+Wire Wire Line
+	19700 10030 19830 10030
+Text Label 20770 5090 0    50   ~ 0
+SW99A
+Text Label 7990 2190 0    50   ~ 0
+SW99A
+Text Label 21240 5230 2    50   ~ 0
+SW99B
+Text Label 7990 2390 0    50   ~ 0
+SW99B
 $EndSCHEMATC

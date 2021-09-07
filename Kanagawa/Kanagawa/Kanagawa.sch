@@ -170,21 +170,21 @@ Text GLabel 950  3140 0    50   Input ~ 0
 col03
 Text GLabel 950  3240 0    50   Input ~ 0
 col04
-Text GLabel 2350 3240 2    50   Input ~ 0
-col05
-Text GLabel 2350 3140 2    50   Input ~ 0
-col06
-Text GLabel 2350 2940 2    50   Input ~ 0
-col07
-Text GLabel 2350 2840 2    50   Input ~ 0
-col08
-Text GLabel 2350 2740 2    50   Input ~ 0
-col09
-Text GLabel 2350 2640 2    50   Input ~ 0
-col10
-Text GLabel 2350 2440 2    50   Input ~ 0
-col11
 Text GLabel 2350 2240 2    50   Input ~ 0
+col05
+Text GLabel 2350 2440 2    50   Input ~ 0
+col06
+Text GLabel 2350 2640 2    50   Input ~ 0
+col07
+Text GLabel 2350 2740 2    50   Input ~ 0
+col08
+Text GLabel 2350 2840 2    50   Input ~ 0
+col09
+Text GLabel 2350 2940 2    50   Input ~ 0
+col10
+Text GLabel 2350 3140 2    50   Input ~ 0
+col11
+Text GLabel 2350 3240 2    50   Input ~ 0
 col12
 Text GLabel 2350 2140 2    50   Input ~ 0
 col13
@@ -270,10 +270,6 @@ Text GLabel 7390 2190 0    50   Input ~ 0
 ENCA
 Text GLabel 7390 2390 0    50   Input ~ 0
 ENCB
-Text GLabel 7990 2190 2    50   Input ~ 0
-SW99A
-Text GLabel 7990 2390 2    50   Input ~ 0
-SW99B
 $Comp
 L keyboard:D DA0
 U 1 1 6132D5CA
@@ -1624,17 +1620,15 @@ F 3 "" H 9990 10030 50  0001 C CNN
 	1    9990 10030
 	0    -1   -1   0   
 $EndComp
-Wire Wire Line
-	9640 10030 9770 10030
 $Comp
 L keyboard:GND #PWR0146
 U 1 1 6140132C
-P 9770 10030
-F 0 "#PWR0146" H 9770 9780 50  0001 C CNN
-F 1 "GND" V 9775 9902 50  0000 R CNN
-F 2 "" H 9770 10030 50  0001 C CNN
-F 3 "" H 9770 10030 50  0001 C CNN
-	1    9770 10030
+P 9790 10030
+F 0 "#PWR0146" H 9790 9780 50  0001 C CNN
+F 1 "GND" V 9795 9902 50  0000 R CNN
+F 2 "" H 9790 10030 50  0001 C CNN
+F 3 "" H 9790 10030 50  0001 C CNN
+	1    9790 10030
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
@@ -4892,10 +4886,6 @@ F 3 "" H 20740 10130 50  0001 C CNN
 	1    20740 10130
 	-1   0    0    1   
 $EndComp
-Text GLabel 20640 5090 2    50   Input ~ 0
-SW99A
-Text GLabel 21240 5230 0    50   Input ~ 0
-SW99B
 $Comp
 L keyboard:GND #PWR0262
 U 1 1 75029F2B
@@ -5050,7 +5040,7 @@ SDA
 Text GLabel 5260 1700 2    50   Input ~ 0
 SCL
 Wire Wire Line
-	20640 4770 20640 6160
+	20640 4770 20640 5090
 Wire Wire Line
 	2460 10130 3080 10130
 Wire Wire Line
@@ -5174,8 +5164,6 @@ F 3 "" H 19830 10030 50  0001 C CNN
 	1    19830 10030
 	0    -1   -1   0   
 $EndComp
-Wire Wire Line
-	19700 10030 19830 10030
 $Comp
 L keyboard:D DF12
 U 1 1 6175EEDC
@@ -5535,12 +5523,6 @@ Wire Wire Line
 	20050 9440 21490 9440
 NoConn ~ 2350 1940
 Wire Wire Line
-	19710 6410 20430 6410
-Wire Wire Line
-	20430 6410 20430 6310
-Wire Wire Line
-	20430 6310 20740 6310
-Wire Wire Line
 	20640 8020 20640 8950
 Wire Wire Line
 	20640 7090 20640 8020
@@ -5581,4 +5563,27 @@ LEDR5
 Text GLabel 21140 8270 2    50   Input ~ 0
 LEDR5
 NoConn ~ 20740 10030
+Wire Wire Line
+	20770 5090 20640 5090
+Connection ~ 20640 5090
+Wire Wire Line
+	20640 5090 20640 6160
+Wire Wire Line
+	19700 6410 20430 6410
+Wire Wire Line
+	20740 6310 20430 6310
+Wire Wire Line
+	20430 6310 20430 6410
+Wire Wire Line
+	19700 10030 19830 10030
+Text Label 20770 5090 0    50   ~ 0
+SW99A
+Text Label 7990 2190 0    50   ~ 0
+SW99A
+Text Label 21240 5230 2    50   ~ 0
+SW99B
+Text Label 7990 2390 0    50   ~ 0
+SW99B
+Wire Wire Line
+	9640 10030 9790 10030
 $EndSCHEMATC
