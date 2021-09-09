@@ -320,8 +320,6 @@ F 3 "" H 2810 6310 50  0001 C CNN
 	1    2810 6310
 	0    -1   -1   0   
 $EndComp
-Wire Wire Line
-	2460 6310 2590 6310
 $Comp
 L keyboard:GND #PWR0113
 U 1 1 6131A3E6
@@ -3644,43 +3642,21 @@ Wire Wire Line
 Wire Wire Line
 	18970 5380 19300 5380
 Wire Wire Line
-	18240 6410 18970 6410
-Wire Wire Line
-	18970 6410 18970 6310
-Wire Wire Line
-	18970 6310 19300 6310
-Wire Wire Line
 	18240 7340 18970 7340
 Wire Wire Line
 	18970 7340 18970 7240
 Wire Wire Line
 	18970 7240 19300 7240
 Wire Wire Line
-	18240 8270 18970 8270
-Wire Wire Line
-	18970 8270 18970 8170
-Wire Wire Line
 	16810 9200 17520 9200
 Wire Wire Line
 	17520 9200 17520 9100
-Wire Wire Line
-	16810 8270 17520 8270
-Wire Wire Line
-	17520 8270 17520 8170
-Wire Wire Line
-	17520 8170 17840 8170
 Wire Wire Line
 	16810 7340 17520 7340
 Wire Wire Line
 	17520 7340 17520 7240
 Wire Wire Line
 	17520 7240 17840 7240
-Wire Wire Line
-	16810 6410 17520 6410
-Wire Wire Line
-	17520 6410 17520 6310
-Wire Wire Line
-	17520 6310 17840 6310
 Wire Wire Line
 	16810 5480 17520 5480
 Wire Wire Line
@@ -3694,23 +3670,11 @@ Wire Wire Line
 Wire Wire Line
 	16100 5380 16410 5380
 Wire Wire Line
-	15390 6410 16100 6410
-Wire Wire Line
-	16100 6410 16100 6310
-Wire Wire Line
-	16100 6310 16410 6310
-Wire Wire Line
 	15390 7340 16100 7340
 Wire Wire Line
 	16100 7340 16100 7240
 Wire Wire Line
 	16100 7240 16410 7240
-Wire Wire Line
-	15390 8270 16100 8270
-Wire Wire Line
-	16100 8270 16100 8170
-Wire Wire Line
-	16100 8170 16410 8170
 Wire Wire Line
 	15390 9200 16100 9200
 Wire Wire Line
@@ -3718,37 +3682,17 @@ Wire Wire Line
 Wire Wire Line
 	16100 9100 16410 9100
 Wire Wire Line
-	15390 10130 16100 10130
-Wire Wire Line
-	13970 10130 14680 10130
-Wire Wire Line
-	14680 10130 14680 10030
-Wire Wire Line
-	14680 10030 14990 10030
-Wire Wire Line
 	13970 9200 14680 9200
 Wire Wire Line
 	14680 9200 14680 9100
 Wire Wire Line
 	14680 9100 14990 9100
 Wire Wire Line
-	13970 8270 14680 8270
-Wire Wire Line
-	14680 8270 14680 8170
-Wire Wire Line
-	14680 8170 14990 8170
-Wire Wire Line
 	13970 7340 14680 7340
 Wire Wire Line
 	14680 7340 14680 7240
 Wire Wire Line
 	14680 7240 14990 7240
-Wire Wire Line
-	13970 6410 14680 6410
-Wire Wire Line
-	14680 6410 14680 6310
-Wire Wire Line
-	14680 6310 14990 6310
 Wire Wire Line
 	13970 5480 14680 5480
 Wire Wire Line
@@ -3762,23 +3706,11 @@ Wire Wire Line
 Wire Wire Line
 	13240 5380 13570 5380
 Wire Wire Line
-	12530 6410 13240 6410
-Wire Wire Line
-	13240 6410 13240 6310
-Wire Wire Line
-	13240 6310 13570 6310
-Wire Wire Line
 	12530 7340 13240 7340
 Wire Wire Line
 	13240 7340 13240 7240
 Wire Wire Line
 	13240 7240 13570 7240
-Wire Wire Line
-	12530 8270 13240 8270
-Wire Wire Line
-	13240 8270 13240 8170
-Wire Wire Line
-	13240 8170 13570 8170
 Wire Wire Line
 	12530 9200 13240 9200
 Wire Wire Line
@@ -3786,41 +3718,17 @@ Wire Wire Line
 Wire Wire Line
 	13240 9100 13570 9100
 Wire Wire Line
-	12530 10130 13240 10130
-Wire Wire Line
-	13240 10130 13240 10030
-Wire Wire Line
-	13240 10030 13570 10030
-Wire Wire Line
-	11070 10130 11780 10130
-Wire Wire Line
-	11780 10130 11780 10030
-Wire Wire Line
-	11780 10030 12130 10030
-Wire Wire Line
 	11070 9200 11780 9200
 Wire Wire Line
 	11780 9200 11780 9100
 Wire Wire Line
 	11780 9100 12130 9100
 Wire Wire Line
-	11070 8270 11780 8270
-Wire Wire Line
-	11780 8270 11780 8170
-Wire Wire Line
-	11780 8170 12130 8170
-Wire Wire Line
 	11070 7340 11780 7340
 Wire Wire Line
 	11780 7340 11780 7240
 Wire Wire Line
 	11780 7240 12130 7240
-Wire Wire Line
-	11070 6410 11780 6410
-Wire Wire Line
-	11780 6410 11780 6310
-Wire Wire Line
-	11780 6310 12130 6310
 Wire Wire Line
 	11070 5480 11780 5480
 Wire Wire Line
@@ -3834,23 +3742,11 @@ Wire Wire Line
 Wire Wire Line
 	10310 5380 10670 5380
 Wire Wire Line
-	9640 6410 10310 6410
-Wire Wire Line
-	10310 6410 10310 6310
-Wire Wire Line
-	10310 6310 10670 6310
-Wire Wire Line
 	9640 7340 10310 7340
 Wire Wire Line
 	10310 7340 10310 7240
 Wire Wire Line
 	10310 7240 10670 7240
-Wire Wire Line
-	9640 8270 10310 8270
-Wire Wire Line
-	10310 8270 10310 8170
-Wire Wire Line
-	10310 8170 10670 8170
 Wire Wire Line
 	9640 9200 10310 9200
 Wire Wire Line
@@ -3858,41 +3754,17 @@ Wire Wire Line
 Wire Wire Line
 	10310 9100 10670 9100
 Wire Wire Line
-	9640 10130 10310 10130
-Wire Wire Line
-	10310 10130 10310 10030
-Wire Wire Line
-	10310 10030 10670 10030
-Wire Wire Line
-	8190 10130 8940 10130
-Wire Wire Line
-	8940 10130 8940 10030
-Wire Wire Line
-	8940 10030 9240 10030
-Wire Wire Line
 	8190 9200 8940 9200
 Wire Wire Line
 	8940 9200 8940 9100
 Wire Wire Line
 	8940 9100 9240 9100
 Wire Wire Line
-	8190 8270 8940 8270
-Wire Wire Line
-	8940 8270 8940 8170
-Wire Wire Line
-	8940 8170 9240 8170
-Wire Wire Line
 	8190 7340 8940 7340
 Wire Wire Line
 	8940 7340 8940 7240
 Wire Wire Line
 	8940 7240 9240 7240
-Wire Wire Line
-	8190 6410 8940 6410
-Wire Wire Line
-	8940 6410 8940 6310
-Wire Wire Line
-	8940 6310 9240 6310
 Wire Wire Line
 	8190 5480 8940 5480
 Wire Wire Line
@@ -3906,23 +3778,11 @@ Wire Wire Line
 Wire Wire Line
 	7490 5380 7790 5380
 Wire Wire Line
-	6740 6410 7490 6410
-Wire Wire Line
-	7490 6410 7490 6310
-Wire Wire Line
-	7490 6310 7790 6310
-Wire Wire Line
 	6740 7340 7490 7340
 Wire Wire Line
 	7490 7340 7490 7240
 Wire Wire Line
 	7490 7240 7790 7240
-Wire Wire Line
-	6740 8270 7490 8270
-Wire Wire Line
-	7490 8270 7490 8170
-Wire Wire Line
-	7490 8170 7790 8170
 Wire Wire Line
 	6740 9200 7490 9200
 Wire Wire Line
@@ -3930,41 +3790,17 @@ Wire Wire Line
 Wire Wire Line
 	7490 9100 7790 9100
 Wire Wire Line
-	6740 10130 7490 10130
-Wire Wire Line
-	7490 10130 7490 10030
-Wire Wire Line
-	7490 10030 7790 10030
-Wire Wire Line
-	5340 10130 6010 10130
-Wire Wire Line
-	6010 10130 6010 10030
-Wire Wire Line
-	6010 10030 6340 10030
-Wire Wire Line
 	5340 9200 6010 9200
 Wire Wire Line
 	6010 9200 6010 9100
 Wire Wire Line
 	6010 9100 6340 9100
 Wire Wire Line
-	5340 8270 6010 8270
-Wire Wire Line
-	6010 8270 6010 8170
-Wire Wire Line
-	6010 8170 6340 8170
-Wire Wire Line
 	5340 7340 6010 7340
 Wire Wire Line
 	6010 7340 6010 7240
 Wire Wire Line
 	6010 7240 6340 7240
-Wire Wire Line
-	5340 6410 6010 6410
-Wire Wire Line
-	6010 6410 6010 6310
-Wire Wire Line
-	6010 6310 6340 6310
 Wire Wire Line
 	5340 5480 6010 5480
 Wire Wire Line
@@ -3978,23 +3814,11 @@ Wire Wire Line
 Wire Wire Line
 	4550 5380 4940 5380
 Wire Wire Line
-	3880 6410 4550 6410
-Wire Wire Line
-	4550 6410 4550 6310
-Wire Wire Line
-	4550 6310 4940 6310
-Wire Wire Line
 	3880 7340 4550 7340
 Wire Wire Line
 	4550 7340 4550 7240
 Wire Wire Line
 	4550 7240 4940 7240
-Wire Wire Line
-	3880 8270 4550 8270
-Wire Wire Line
-	4550 8270 4550 8170
-Wire Wire Line
-	4550 8170 4940 8170
 Wire Wire Line
 	3880 9200 4550 9200
 Wire Wire Line
@@ -4002,35 +3826,17 @@ Wire Wire Line
 Wire Wire Line
 	4550 9100 4940 9100
 Wire Wire Line
-	3880 10130 4550 10130
-Wire Wire Line
-	4550 10130 4550 10030
-Wire Wire Line
-	4550 10030 4940 10030
-Wire Wire Line
 	2460 9200 3080 9200
 Wire Wire Line
 	3080 9200 3080 9100
 Wire Wire Line
 	3080 9100 3480 9100
 Wire Wire Line
-	2460 8270 3080 8270
-Wire Wire Line
-	3080 8270 3080 8170
-Wire Wire Line
-	3080 8170 3480 8170
-Wire Wire Line
 	2460 7340 3080 7340
 Wire Wire Line
 	3080 7340 3080 7240
 Wire Wire Line
 	3080 7240 3480 7240
-Wire Wire Line
-	2460 6410 3080 6410
-Wire Wire Line
-	3080 6410 3080 6310
-Wire Wire Line
-	3080 6310 3480 6310
 Wire Wire Line
 	2460 5480 3080 5480
 Wire Wire Line
@@ -4039,22 +3845,18 @@ Wire Wire Line
 	3080 5380 3480 5380
 Text GLabel 1880 5380 0    50   Input ~ 0
 LEDR0
-Text GLabel 21140 6410 2    50   Input ~ 0
+Text GLabel 2460 6410 2    50   Input ~ 0
 LEDR0
 Wire Wire Line
 	1880 5380 2060 5380
-Text GLabel 1880 6310 0    50   Input ~ 0
+Text GLabel 20740 6310 0    50   Input ~ 0
 LEDR1
-Wire Wire Line
-	1880 6310 2060 6310
 Text GLabel 1880 7240 0    50   Input ~ 0
 LEDR2
 Wire Wire Line
 	1880 7240 2060 7240
-Text GLabel 1880 8170 0    50   Input ~ 0
+Text GLabel 19300 8170 0    50   Input ~ 0
 LEDR3
-Wire Wire Line
-	1880 8170 2060 8170
 Text GLabel 1880 9100 0    50   Input ~ 0
 LEDR4
 Wire Wire Line
@@ -5041,12 +4843,6 @@ Text GLabel 5260 1700 2    50   Input ~ 0
 SCL
 Wire Wire Line
 	20640 4770 20640 5090
-Wire Wire Line
-	2460 10130 3080 10130
-Wire Wire Line
-	3080 10130 3080 10030
-Wire Wire Line
-	3080 10030 3480 10030
 $Comp
 L keyboard:VCC #PWR0271
 U 1 1 76404E0E
@@ -5075,11 +4871,9 @@ Wire Wire Line
 	20050 5720 21490 5720
 Wire Wire Line
 	19700 5480 20240 5480
-Wire Wire Line
-	16100 10130 16100 10030
 Connection ~ 16310 8950
 Connection ~ 15740 10370
-Text GLabel 19700 10130 2    50   Input ~ 0
+Text GLabel 2460 10130 2    50   Input ~ 0
 LEDR4
 $Comp
 L keyboard:VCC #PWR0273
@@ -5115,20 +4909,6 @@ F 3 "" H 16410 10130 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 Wire Wire Line
-	16100 10030 16410 10030
-Wire Wire Line
-	17520 10030 17840 10030
-Wire Wire Line
-	17520 10130 17520 10030
-Wire Wire Line
-	16810 10130 17520 10130
-Wire Wire Line
-	18970 10030 19300 10030
-Wire Wire Line
-	18970 10130 18970 10030
-Wire Wire Line
-	18240 10130 18970 10130
-Wire Wire Line
 	16310 8950 16310 9880
 Wire Wire Line
 	20050 10370 18590 10370
@@ -5138,17 +4918,6 @@ Connection ~ 18590 10370
 Wire Wire Line
 	17160 10370 15740 10370
 Connection ~ 17160 10370
-$Comp
-L keyboard:KEY_SW_RGB KF12
-U 1 1 6175EEF4
-P 19500 9880
-F 0 "KF12" H 19500 10135 50  0000 C CNN
-F 1 "KEY_SW" H 19500 10044 50  0000 C CNN
-F 2 "keyboard:SW_Cherry_MX_1.00u_SK6812MINI" H 19500 9880 50  0001 C CNN
-F 3 "" H 19500 9880 50  0000 C CNN
-	1    19500 9880
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	20050 10180 20050 10370
 Wire Wire Line
@@ -5393,8 +5162,6 @@ F 3 "" H 19300 8270 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 Wire Wire Line
-	18970 8170 19300 8170
-Wire Wire Line
 	19200 8020 19200 8950
 Connection ~ 19200 8020
 Wire Wire Line
@@ -5463,7 +5230,7 @@ F 3 "" H 20740 8270 50  0001 C CNN
 	1    20740 8270
 	-1   0    0    1   
 $EndComp
-Text GLabel 19700 8270 2    50   Input ~ 0
+Text GLabel 2460 8270 2    50   Input ~ 0
 LEDR2
 Wire Wire Line
 	21490 8320 21490 8510
@@ -5539,41 +5306,12 @@ F 3 "" H 20940 8020 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	21140 10130 21200 10130
-Wire Wire Line
-	21200 10130 21200 9550
-Wire Wire Line
-	21200 9550 20550 9550
-Wire Wire Line
-	20550 9550 20550 9100
-Wire Wire Line
-	20550 9100 20740 9100
-Wire Wire Line
 	21140 9200 21210 9200
-Wire Wire Line
-	21210 9200 21210 8600
-Wire Wire Line
-	21210 8600 20550 8600
-Wire Wire Line
-	20550 8600 20550 8170
-Wire Wire Line
-	20550 8170 20740 8170
-Text GLabel 2060 10030 0    50   Input ~ 0
-LEDR5
-Text GLabel 21140 8270 2    50   Input ~ 0
-LEDR5
-NoConn ~ 20740 10030
 Wire Wire Line
 	20770 5090 20640 5090
 Connection ~ 20640 5090
 Wire Wire Line
 	20640 5090 20640 6160
-Wire Wire Line
-	19700 6410 20430 6410
-Wire Wire Line
-	20740 6310 20430 6310
-Wire Wire Line
-	20430 6310 20430 6410
 Wire Wire Line
 	19700 10030 19830 10030
 Text Label 20770 5090 0    50   ~ 0
@@ -5586,4 +5324,188 @@ Text Label 7990 2390 0    50   ~ 0
 SW99B
 Wire Wire Line
 	9640 10030 9790 10030
+Wire Wire Line
+	21210 9200 21210 9530
+Wire Wire Line
+	21210 9530 20490 9530
+Wire Wire Line
+	20740 10030 20490 10030
+Wire Wire Line
+	20490 9530 20490 10030
+Wire Wire Line
+	20740 9100 20530 9100
+Wire Wire Line
+	20530 9100 20530 8600
+Wire Wire Line
+	20530 8600 21240 8600
+Wire Wire Line
+	21240 8600 21240 8270
+Wire Wire Line
+	21240 8270 21140 8270
+NoConn ~ 20740 8170
+Text Label 2060 6310 2    50   ~ 0
+LEDKB0
+Text Label 3880 6410 0    50   ~ 0
+LEDKB0
+Text Label 5340 6410 0    50   ~ 0
+LEDKB1
+Text Label 3480 6310 2    50   ~ 0
+LEDKB1
+Text Label 4940 6310 2    50   ~ 0
+LEDKB2
+Text Label 6340 6310 2    50   ~ 0
+LEDKB3
+Text Label 7790 6310 2    50   ~ 0
+LEDKB4
+Text Label 9240 6310 2    50   ~ 0
+LEDKB5
+Text Label 10670 6310 2    50   ~ 0
+LEDKB6
+Text Label 12130 6310 2    50   ~ 0
+LEDKB7
+Text Label 13570 6310 2    50   ~ 0
+LEDKB8
+Text Label 14990 6310 2    50   ~ 0
+LEDKB9
+Text Label 16410 6310 2    50   ~ 0
+LEDKB10
+Text Label 17840 6310 2    50   ~ 0
+LEDKB11
+Text Label 19300 6310 2    50   ~ 0
+LEDKB12
+Text Label 21140 6410 0    50   ~ 0
+LEDKB12
+Text Label 19700 6410 0    50   ~ 0
+LEDKB11
+Text Label 18240 6410 0    50   ~ 0
+LEDKB10
+Text Label 16810 6410 0    50   ~ 0
+LEDKB9
+Text Label 15390 6410 0    50   ~ 0
+LEDKB8
+Text Label 13970 6410 0    50   ~ 0
+LEDKB7
+Text Label 12530 6410 0    50   ~ 0
+LEDKB6
+Text Label 11070 6410 0    50   ~ 0
+LEDKB5
+Text Label 9640 6410 0    50   ~ 0
+LEDKB4
+Text Label 8190 6410 0    50   ~ 0
+LEDKB3
+Text Label 6740 6410 0    50   ~ 0
+LEDKB2
+Text Label 2060 8170 2    50   ~ 0
+LEDKD0
+Text Label 3480 8170 2    50   ~ 0
+LEDKD1
+Text Label 4940 8170 2    50   ~ 0
+LEDKD2
+Text Label 6340 8170 2    50   ~ 0
+LEDKD3
+Text Label 9240 8170 2    50   ~ 0
+LEDKD5
+Text Label 7790 8170 2    50   ~ 0
+LEDKD4
+Text Label 10670 8170 2    50   ~ 0
+LEDKD6
+Text Label 12130 8170 2    50   ~ 0
+LEDKD7
+Text Label 13570 8170 2    50   ~ 0
+LEDKD8
+Text Label 14990 8170 2    50   ~ 0
+LEDKD9
+Text Label 16410 8170 2    50   ~ 0
+LEDKD10
+Text Label 17840 8170 2    50   ~ 0
+LEDKD11
+Text Label 2060 10030 2    50   ~ 0
+LEDKF0
+Text Label 3480 10030 2    50   ~ 0
+LEDKF1
+Text Label 4940 10030 2    50   ~ 0
+LEDKF2
+Text Label 6340 10030 2    50   ~ 0
+LEDKF3
+Text Label 7790 10030 2    50   ~ 0
+LEDKF4
+Text Label 9240 10030 2    50   ~ 0
+LEDKF5
+Text Label 10670 10030 2    50   ~ 0
+LEDKF6
+Text Label 12130 10030 2    50   ~ 0
+LEDKF7
+Text Label 13570 10030 2    50   ~ 0
+LEDKF8
+Text Label 14990 10030 2    50   ~ 0
+LEDKF9
+Text Label 16410 10030 2    50   ~ 0
+LEDKF10
+Text Label 17840 10030 2    50   ~ 0
+LEDKF11
+$Comp
+L keyboard:KEY_SW_RGB KF12
+U 1 1 6175EEF4
+P 19500 9880
+F 0 "KF12" H 19500 10135 50  0000 C CNN
+F 1 "KEY_SW" H 19500 10044 50  0000 C CNN
+F 2 "keyboard:SW_Cherry_MX_1.00u_SK6812MINI" H 19500 9880 50  0001 C CNN
+F 3 "" H 19500 9880 50  0000 C CNN
+	1    19500 9880
+	1    0    0    -1  
+$EndComp
+Text Label 19300 10030 2    50   ~ 0
+LEDKF12
+Text Label 3880 8270 0    50   ~ 0
+LEDKD0
+Text Label 5340 8270 0    50   ~ 0
+LEDKD1
+Text Label 6740 8270 0    50   ~ 0
+LEDKD2
+Text Label 8190 8270 0    50   ~ 0
+LEDKD3
+Text Label 9640 8270 0    50   ~ 0
+LEDKD4
+Text Label 11070 8270 0    50   ~ 0
+LEDKD5
+Text Label 12530 8270 0    50   ~ 0
+LEDKD6
+Text Label 13970 8270 0    50   ~ 0
+LEDKD7
+Text Label 15390 8270 0    50   ~ 0
+LEDKD8
+Text Label 16810 8270 0    50   ~ 0
+LEDKD9
+Text Label 18240 8270 0    50   ~ 0
+LEDKD10
+Text Label 19700 8270 0    50   ~ 0
+LEDKD11
+Text Label 21140 10130 0    50   ~ 0
+LEDKF12
+Text Label 19700 10130 0    50   ~ 0
+LEDKF11
+Text Label 18240 10130 0    50   ~ 0
+LEDKF10
+Text Label 16810 10130 0    50   ~ 0
+LEDKF9
+Text Label 15390 10130 0    50   ~ 0
+LEDKF8
+Text Label 13970 10130 0    50   ~ 0
+LEDKF7
+Text Label 12530 10130 0    50   ~ 0
+LEDKF6
+Text Label 11070 10130 0    50   ~ 0
+LEDKF5
+Text Label 9640 10130 0    50   ~ 0
+LEDKF4
+Text Label 8190 10130 0    50   ~ 0
+LEDKF3
+Text Label 6740 10130 0    50   ~ 0
+LEDKF2
+Text Label 5340 10130 0    50   ~ 0
+LEDKF1
+Text Label 3880 10130 0    50   ~ 0
+LEDKF0
+Wire Wire Line
+	2460 6310 2590 6310
 $EndSCHEMATC
