@@ -17,6 +17,9 @@ oled display
 128x32   https://fr.farnell.com/midas/mdob128032gv-wi/afficheur-oled-cob-128-x-32-pixels/dp/3407291
 
 
+``python3 ./generate_pcbs.py``
+
+
 
 Elite-C
 
