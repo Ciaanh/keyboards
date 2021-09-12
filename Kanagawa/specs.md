@@ -6,7 +6,7 @@
 Matrix 6x14 => 84
 
 
-
+graphics cu layer => https://github.com/komar007/gh60
 
 1 i2c => 2 pins
 1 rot enc => 2 pins + switch
@@ -18,6 +18,24 @@ oled display
 
 
 
+Elite-C
+
+.   |    |    |    |    |    |    .
+----|----|----|----|----|----|-----  
+D3  |    |    |    |    |    |  B0
+D2  |    |    |    |    |    |  GND
+GND |    |    |    |    |    |  RST
+GND |    |    |    |    |    |  VCC
+D1  |    |    |    |    |    |  F4
+D0  |    |    |    |    |    |  F5
+D4  |    |    |    |    |    |  F6
+C6  |    |    |    |    |    |  F7
+D7  |    |    |    |    |    |  B1
+E6  |    |    |    |    |    |  B3
+B4  |    |    |    |    |    |  B2
+B5  | B7 | D5 | C7 | F1 | F0 |  B6
+
+I/O => 24
 
 RP - Pico
 
