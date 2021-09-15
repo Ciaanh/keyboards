@@ -76,27 +76,28 @@ def extract_module_cutout(board):
                     segment = clone_edge_to_board(d, module)
                     segment.SetLayer(edge_cuts_layer_id)
                     board.Add(segment)
-
+                    
 
 def clone_edge_to_board(edge, module):
     position = module.GetPosition()
 
     edgeStart = edge.GetStart0()
-    edgeEnd = edge.GetEnd0()
-
     edgeStart.x = edgeStart.x + position.x
     edgeStart.y = edgeStart.y + position.y
 
+    edgeEnd = edge.GetEnd0()
     edgeEnd.x = edgeEnd.x + position.x
     edgeEnd.y = edgeEnd.y + position.y
 
-    segment = pcbnew.DRAWSEGMENT(module)
-    segment.SetWidth(ALL_LAYERS_WIDTH)
-    segment.SetStart(edgeStart)
-    segment.SetEnd(edgeEnd)
-    segment.Rotate(position, module.GetOrientation())
+    shape = pcbnew.DRAWSEGMENT(module)
+    shape.SetWidth(ALL_LAYERS_WIDTH)
 
-    return segment
+    shape.SetStart(edgeStart)
+    shape.SetEnd(edgeEnd)
+
+    shape.Rotate(position, module.GetOrientation())
+
+    return shape
 
 
 def delete_tracks(board):

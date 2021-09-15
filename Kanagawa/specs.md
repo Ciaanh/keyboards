@@ -3,7 +3,7 @@
 85(86) keys
 
 
-Matrix 6x14 => 84
+Matrix 6x14 => 84 = 7x12 = 19 pins vs 20
 
 
 graphics cu layer => https://github.com/komar007/gh60
