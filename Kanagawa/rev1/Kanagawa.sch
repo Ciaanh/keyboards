@@ -1381,7 +1381,7 @@ U 1 1 61470A75
 P 12330 9880
 F 0 "KF7" H 12330 10135 50  0000 C CNN
 F 1 "KEY_SW" H 12330 10044 50  0000 C CNN
-F 2 "keyboard:SW_Cherry_MX_1.25u_Hotswap" H 12330 9880 50  0001 C CNN
+F 2 "keyboard:SW_Cherry_MX_1.00u_Hotswap" H 12330 9880 50  0001 C CNN
 F 3 "" H 12330 9880 50  0000 C CNN
 	1    12330 9880
 	1    0    0    -1  
@@ -1693,7 +1693,7 @@ U 1 1 614F8724
 P 15190 9880
 F 0 "KF9" H 15190 10135 50  0000 C CNN
 F 1 "KEY_SW" H 15190 10044 50  0000 C CNN
-F 2 "keyboard:SW_Cherry_MX_1.25u_Hotswap" H 15190 9880 50  0001 C CNN
+F 2 "keyboard:SW_Cherry_MX_1.00u_Hotswap" H 15190 9880 50  0001 C CNN
 F 3 "" H 15190 9880 50  0000 C CNN
 	1    15190 9880
 	1    0    0    -1  
@@ -2764,7 +2764,7 @@ U 1 1 6175EE07
 P 18040 8950
 F 0 "KE11" H 18040 9205 50  0000 C CNN
 F 1 "KEY_SW" H 18040 9114 50  0000 C CNN
-F 2 "keyboard:SW_Cherry_MX_2.25u_Hotswap" H 18040 8950 50  0001 C CNN
+F 2 "keyboard:SW_Cherry_MX_1.75u_Hotswap" H 18040 8950 50  0001 C CNN
 F 3 "" H 18040 8950 50  0000 C CNN
 	1    18040 8950
 	1    0    0    -1  
@@ -2830,7 +2830,7 @@ U 1 1 6175EEB2
 P 19500 8020
 F 0 "KD12" H 19500 8275 50  0000 C CNN
 F 1 "KEY_SW" H 19500 8184 50  0000 C CNN
-F 2 "keyboard:SW_Cherry_MX_2.00u_Hotswap" H 19500 8020 50  0001 C CNN
+F 2 "keyboard:SW_Cherry_MX_2.25u_Hotswap" H 19500 8020 50  0001 C CNN
 F 3 "" H 19500 8020 50  0000 C CNN
 	1    19500 8020
 	1    0    0    -1  
@@ -3083,28 +3083,6 @@ F 1 "MountingHole USB breakout" H 6550 1455 50  0000 L CNN
 F 2 "keyboard:Keebio_USB-C_breakout_shadow" H 6800 1350 50  0001 C CNN
 F 3 "" H 6450 1500 50  0001 C CNN
 	1    6450 1500
-	1    0    0    -1  
-$EndComp
-$Comp
-L keyboard:MountingHole MountBaseMiddleTop7
-U 1 1 615C07FA
-P 9560 820
-F 0 "MountBaseMiddleTop7" H 9660 866 50  0000 L CNN
-F 1 "MountingHole" H 9660 775 50  0000 L CNN
-F 2 "keyboard:MountingHole_2.2mm_M2_Pad_Via" H 9910 670 50  0001 C CNN
-F 3 "" H 9560 820 50  0001 C CNN
-	1    9560 820 
-	1    0    0    -1  
-$EndComp
-$Comp
-L keyboard:MountingHole MountBaseMiddleTop8
-U 1 1 615C0800
-P 9560 990
-F 0 "MountBaseMiddleTop8" H 9660 1036 50  0000 L CNN
-F 1 "MountingHole" H 9660 945 50  0000 L CNN
-F 2 "keyboard:MountingHole_2.2mm_M2_Pad_Via" H 9910 840 50  0001 C CNN
-F 3 "" H 9560 990 50  0001 C CNN
-	1    9560 990 
 	1    0    0    -1  
 $EndComp
 $EndSCHEMATC

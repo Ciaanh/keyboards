@@ -1,4 +1,4 @@
-19381872109191254
+19378968144640612
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -83202,13 +83202,6 @@ varistor SIOV
 2
 2
 keyboard
-CherryMX_KailhLowProfile_Hotswap
-
-
-0
-8
-2
-keyboard
 Ciaanh_signature
 
 
@@ -83271,69 +83264,6 @@ LED
 0
 2
 2
-keyboard
-MXOnly_1.5U_Hotswap_PCB
-
-
-0
-4
-4
-keyboard
-MXOnly_1.25U_Hotswap_PCB
-
-
-0
-6
-4
-keyboard
-MXOnly_1.75U_Hotswap_PCB
-
-
-0
-6
-4
-keyboard
-MXOnly_1U_Hotswap_PCB
-
-
-0
-4
-4
-keyboard
-MXOnly_2.5U_Hotswap_PCB
-
-
-0
-6
-4
-keyboard
-MXOnly_2.25U_Hotswap_PCB
-
-
-0
-6
-4
-keyboard
-MXOnly_2.75U_Hotswap_PCB
-
-
-0
-6
-4
-keyboard
-MXOnly_2U_Hotswap_PCB
-
-
-0
-4
-4
-keyboard
-MXOnly_ISO_Hotswap_PCB
-
-
-0
-4
-4
 keyboard
 MountingHole_2.2mm_M2_Pad
 Mounting Hole 2.2mm, M2
@@ -83412,54 +83342,12 @@ rotary encoder
 7
 6
 keyboard
-SK6812MINI_and_cherry
+SK6812-MINI-E_back
 
 
 0
-12
-6
-keyboard
-SK6812MINI_and_cherry-edited
-
-
-0
-6
-6
-keyboard
-SK6812MINI_rev
-
-
-0
-8
 4
-keyboard
-SK6812MINI_underglow_dev
-
-
-0
-8
 4
-keyboard
-SK6812Mini-Cutoff
-
-
-0
-0
-0
-keyboard
-SOT-23
-SOT-23, Standard
-SOT-23
-0
-6
-3
-keyboard
-SOT23-3_HSOL
-SOT23
-
-0
-3
-3
 keyboard
 SOT23-3_HSOL_Back
 SOT23
@@ -83482,6 +83370,20 @@ SW_Cherry_MX_1.00u_Hotswap
 2
 2
 keyboard
+SW_Cherry_MX_1.00u_Hotswap_LED
+
+
+0
+4
+4
+keyboard
+SW_Cherry_MX_1.00u_SK6812MINI-E_Hotswap
+
+
+0
+6
+6
+keyboard
 SW_Cherry_MX_1.00u_SK6812MINI_Hotswap
 
 
@@ -83503,14 +83405,21 @@ SW_Cherry_MX_1.25u_Hotswap
 2
 2
 keyboard
-SW_Cherry_MX_1.25u_SK6812MINI_Hotswap
+SW_Cherry_MX_1.25u_Hotswap_LED
+
+
+0
+4
+4
+keyboard
+SW_Cherry_MX_1.25u_SK6812MINI-E_Hotswap
 
 
 0
 6
 6
 keyboard
-SW_Cherry_MX_1.25u_SK6812MINI_Rotated
+SW_Cherry_MX_1.25u_SK6812MINI_Hotswap
 
 
 0
@@ -83530,6 +83439,20 @@ SW_Cherry_MX_1.50u_Hotswap
 0
 2
 2
+keyboard
+SW_Cherry_MX_1.50u_Hotswap_LED
+
+
+0
+4
+4
+keyboard
+SW_Cherry_MX_1.50u_SK6812MINI-E_Hotswap
+
+
+0
+6
+6
 keyboard
 SW_Cherry_MX_1.50u_SK6812MINI_Hotswap
 
@@ -83552,6 +83475,20 @@ SW_Cherry_MX_1.75u_Hotswap
 2
 2
 keyboard
+SW_Cherry_MX_1.75u_Hotswap_LED
+
+
+0
+4
+4
+keyboard
+SW_Cherry_MX_1.75u_SK6812MINI-E_Hotswap
+
+
+0
+6
+6
+keyboard
 SW_Cherry_MX_1.75u_SK6812MINI_Hotswap
 
 
@@ -83572,6 +83509,20 @@ SW_Cherry_MX_2.00u_Hotswap
 0
 2
 2
+keyboard
+SW_Cherry_MX_2.00u_Hotswap_LED
+
+
+0
+4
+4
+keyboard
+SW_Cherry_MX_2.00u_SK6812MINI-E_Hotswap
+
+
+0
+6
+6
 keyboard
 SW_Cherry_MX_2.00u_SK6812MINI_Hotswap
 
@@ -83594,12 +83545,26 @@ SW_Cherry_MX_2.25u_Hotswap
 2
 2
 keyboard
+SW_Cherry_MX_2.25u_Hotswap_LED
+
+
+0
+4
+4
+keyboard
 SW_Cherry_MX_2.25u_ISO
 
 
 0
 8
 4
+keyboard
+SW_Cherry_MX_2.25u_SK6812MINI-E_Hotswap
+
+
+0
+6
+6
 keyboard
 SW_Cherry_MX_2.25u_SK6812MINI_Hotswap
 
@@ -83622,6 +83587,20 @@ SW_Cherry_MX_2.50u_Hotswap
 2
 2
 keyboard
+SW_Cherry_MX_2.50u_Hotswap_LED
+
+
+0
+4
+4
+keyboard
+SW_Cherry_MX_2.50u_SK6812MINI-E_Hotswap
+
+
+0
+6
+6
+keyboard
 SW_Cherry_MX_2.50u_SK6812MINI_Hotswap
 
 
@@ -83642,6 +83621,20 @@ SW_Cherry_MX_2.75u_Hotswap
 0
 2
 2
+keyboard
+SW_Cherry_MX_2.75u_Hotswap_LED
+
+
+0
+4
+4
+keyboard
+SW_Cherry_MX_2.75u_SK6812MINI-E_Hotswap
+
+
+0
+6
+6
 keyboard
 SW_Cherry_MX_2.75u_SK6812MINI_Hotswap
 
@@ -83677,13 +83670,6 @@ WS2812B_Front
 0
 4
 4
-keyboard
-bridge_2x16_P2.54mm
-
-
-0
-68
-32
 keyboard
 cc
 
@@ -83740,21 +83726,21 @@ proton_c
 0
 42
 39
-layout-for-export
+lib
 Dwgs.User_g222
 
 
 0
 0
 0
-layout-for-export
+lib
 Great-wave
 
 
 0
 0
 0
-layout-for-export
+lib
 Wave-pattern
 
 
