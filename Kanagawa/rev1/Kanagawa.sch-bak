@@ -2543,7 +2543,7 @@ U 1 1 751EBD82
 P 3590 1630
 F 0 "J1" H 3508 1205 50  0000 C CNN
 F 1 "Conn_01x04" H 3508 1296 50  0000 C CNN
-F 2 "keyboard:OLED_128x64_I2C" H 3740 1230 50  0001 C CNN
+F 2 "keyboard:OLED_128x64_I2C_cutout" H 3740 1230 50  0001 C CNN
 F 3 "" H 3590 1630 50  0001 C CNN
 	1    3590 1630
 	-1   0    0    1   
@@ -3087,24 +3087,13 @@ F 3 "" H 6450 1500 50  0001 C CNN
 $EndComp
 $Comp
 L keyboard:MountingHole MountBaseMiddleTop7
-U 1 1 615C07FA
-P 9560 820
-F 0 "MountBaseMiddleTop7" H 9660 866 50  0000 L CNN
-F 1 "MountingHole" H 9660 775 50  0000 L CNN
-F 2 "keyboard:MountingHole_2.2mm_M2_Pad_Via" H 9910 670 50  0001 C CNN
-F 3 "" H 9560 820 50  0001 C CNN
-	1    9560 820 
-	1    0    0    -1  
-$EndComp
-$Comp
-L keyboard:MountingHole MountBaseMiddleTop8
-U 1 1 615C0800
-P 9560 990
-F 0 "MountBaseMiddleTop8" H 9660 1036 50  0000 L CNN
-F 1 "MountingHole" H 9660 945 50  0000 L CNN
-F 2 "keyboard:MountingHole_2.2mm_M2_Pad_Via" H 9910 840 50  0001 C CNN
-F 3 "" H 9560 990 50  0001 C CNN
-	1    9560 990 
+U 1 1 61738078
+P 9570 810
+F 0 "MountBaseMiddleTop7" H 9670 856 50  0000 L CNN
+F 1 "MountingHole" H 9670 765 50  0000 L CNN
+F 2 "keyboard:MountingHole_2.2mm_M2_Pad_Via" H 9920 660 50  0001 C CNN
+F 3 "" H 9570 810 50  0001 C CNN
+	1    9570 810 
 	1    0    0    -1  
 $EndComp
 $EndSCHEMATC

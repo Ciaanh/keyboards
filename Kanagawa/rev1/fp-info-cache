@@ -1,4 +1,4 @@
-19378968144640612
+19380621002426558
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -83202,14 +83202,14 @@ varistor SIOV
 2
 2
 keyboard
-Ciaanh_signature
+Ciaanh_signature_back
 
 
 0
 0
 0
 keyboard
-Ciaanh_signature_back
+Cthulhu_logo
 
 
 0
@@ -83301,6 +83301,13 @@ OLED 0.96 inch 128x64 I2C
 4
 keyboard
 OLED_128x64_I2C
+
+OLED 0.96 inch 128x64 I2C
+0
+4
+4
+keyboard
+OLED_128x64_I2C_cutout
 
 OLED 0.96 inch 128x64 I2C
 0

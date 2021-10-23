@@ -1,4 +1,4 @@
-(module Keebio_USB-C_breakout_shadow (layer F.Cu) (tedit 613DDEC7)
+(module Keebio_USB-C_breakout_shadow (layer F.Cu) (tedit 615B64B7)
   (fp_text reference REF** (at 0.5 1.5) (layer F.SilkS) hide
     (effects (font (size 1 1) (thickness 0.15)))
   )
@@ -17,6 +17,6 @@
   (fp_line (start -12.48 -5.97) (end -12.48 -4.99) (layer B.SilkS) (width 0.12))
   (fp_line (start 12.52 -5.97) (end 11.54 -5.97) (layer B.SilkS) (width 0.12))
   (fp_line (start 12.52 -5.97) (end 12.52 -4.99) (layer B.SilkS) (width 0.12))
-  (pad "" thru_hole circle (at 8.9512 -2.3981) (size 4.4 4.4) (drill 2.2) (layers *.Cu *.Mask))
-  (pad "" thru_hole circle (at -8.9081 -2.3981) (size 4.4 4.4) (drill 2.2) (layers *.Cu *.Mask))
+  (pad "" thru_hole circle (at 8.9512 -2.3981) (size 5 5) (drill 3.2) (layers *.Cu *.Mask))
+  (pad "" thru_hole circle (at -8.9081 -2.3981) (size 5 5) (drill 3.2) (layers *.Cu *.Mask))
 )
