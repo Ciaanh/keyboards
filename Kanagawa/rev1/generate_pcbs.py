@@ -9,6 +9,7 @@
 
 import sys
 import os
+from typing import NoReturn
 import pcbnew
 
 this_dir = os.path.dirname(os.path.realpath(__file__))
@@ -76,9 +77,41 @@ def extract_module_cutout(board):
                     segment = clone_edge_to_board(d, module)
                     segment.SetLayer(edge_cuts_layer_id)
                     board.Add(segment)
-                    
+
 
 def clone_edge_to_board(edge, module):
+    if(edge.GetShapeStr() == "Arc"):
+        return draw_arc(edge, module)
+    else:
+        return draw_line(edge, module)
+
+
+def draw_arc(edge, module):
+    position = module.GetPosition()
+
+    arcStart = edge.GetArcStart()
+    # arcStart.x = arcStart.x + position.x
+    # arcStart.y = arcStart.y + position.y
+
+    arcCenter = edge.GetCenter()
+    # arcCenter.x = arcCenter.x + position.x
+    # arcCenter.y = arcCenter.y + position.y
+
+    shape = pcbnew.DRAWSEGMENT(module)
+    # shape.SetShape(pcbnew.SHAPE_T_ARC)
+    shape.SetShape(pcbnew.S_ARC)
+    shape.SetWidth(ALL_LAYERS_WIDTH)
+
+    shape.SetArcStart(arcStart)
+    shape.SetCenter(arcCenter)
+    shape.SetAngle(edge.GetAngle())
+
+    shape.Rotate(position, module.GetOrientation())
+
+    return shape
+
+
+def draw_line(edge, module):
     position = module.GetPosition()
 
     edgeStart = edge.GetStart0()
