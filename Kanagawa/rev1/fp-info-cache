@@ -1,4 +1,4 @@
-19380621003269762
+19383895823478888
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -83223,6 +83223,13 @@ D DO-35_SOD27 series Axial Horizontal pin pitch 10.16mm  length 4mm diameter 2mm
 4
 2
 keyboard
+Diode_THT
+D, DO-35_SOD27 series, Axial, Horizontal, pin pitch=10.16mm, , length*diameter=4*2mm^2, , http://www.diodes.com/_files/packages/DO-35.pdf
+D DO-35_SOD27 series Axial Horizontal pin pitch 10.16mm  length 4mm diameter 2mm
+0
+4
+2
+keyboard
 Elite-C-29pin-holes
 
 
@@ -83336,6 +83343,13 @@ Through hole pin header THT 2x20 2.54mm double row
 40
 keyboard
 Resistors_SMD_THT
+D, DO-35_SOD27 series, Axial, Horizontal, pin pitch=10.16mm, , length*diameter=4*2mm^2, , http://www.diodes.com/_files/packages/DO-35.pdf
+D DO-35_SOD27 series Axial Horizontal pin pitch 10.16mm  length 4mm diameter 2mm
+0
+4
+2
+keyboard
+Resistors_THT
 D, DO-35_SOD27 series, Axial, Horizontal, pin pitch=10.16mm, , length*diameter=4*2mm^2, , http://www.diodes.com/_files/packages/DO-35.pdf
 D DO-35_SOD27 series Axial Horizontal pin pitch 10.16mm  length 4mm diameter 2mm
 0
