@@ -3085,15 +3085,4 @@ F 3 "" H 6450 1500 50  0001 C CNN
 	1    6450 1500
 	1    0    0    -1  
 $EndComp
-$Comp
-L keyboard:MountingHole MountBaseMiddleTop7
-U 1 1 61738078
-P 9570 810
-F 0 "MountBaseMiddleTop7" H 9670 856 50  0000 L CNN
-F 1 "MountingHole" H 9670 765 50  0000 L CNN
-F 2 "keyboard:MountingHole_2.2mm_M2_Pad_Via" H 9920 660 50  0001 C CNN
-F 3 "" H 9570 810 50  0001 C CNN
-	1    9570 810 
-	1    0    0    -1  
-$EndComp
 $EndSCHEMATC
