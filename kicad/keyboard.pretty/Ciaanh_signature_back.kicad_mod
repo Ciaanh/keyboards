@@ -1,0 +1,15 @@
+(module Ciaanh_signature_back (layer F.Cu) (tedit 6158C7F9)
+  (attr virtual)
+  (fp_text reference LogoMiddle (at -12 0) (layer B.SilkS) hide
+    (effects (font (size 1.524 1.524) (thickness 0.3)) (justify mirror))
+  )
+  (fp_text value LOGO (at -12 0) (layer B.SilkS) hide
+    (effects (font (size 1.524 1.524) (thickness 0.3)) (justify mirror))
+  )
+  (fp_text user Ciaanh (at 0 0 unlocked) (layer F.Mask)
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (fp_text user Ciaanh (at 0 0 unlocked) (layer F.Cu)
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+)

@@ -1,4 +1,4 @@
-(module MountingHole_2.4mm_M2_Pad (layer F.Cu) (tedit 5ED0DE31)
+(module MountingHole_2.4mm_M2_Pad (layer F.Cu) (tedit 613D0AC5)
   (descr MountingHole_2.4mm_M2)
   (fp_text reference TH1 (at 0 2.7) (layer F.SilkS) hide
     (effects (font (size 1 1) (thickness 0.15)))

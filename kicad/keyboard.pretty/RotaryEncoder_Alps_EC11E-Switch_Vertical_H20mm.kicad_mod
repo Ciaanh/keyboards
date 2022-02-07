@@ -1,4 +1,4 @@
-(module RotaryEncoder_Alps_EC11E-Switch_Vertical_H20mm (layer F.Cu) (tedit 5D5C0C22)
+(module RotaryEncoder_Alps_EC11E-Switch_Vertical_H20mm (layer F.Cu) (tedit 6179D166)
   (descr "Alps rotary encoder, EC12E... with switch, vertical shaft, http://www.alps.com/prod/info/E/HTML/Encoder/Incremental/EC11/EC11E15204A3.html")
   (tags "rotary encoder")
   (fp_text reference SW25 (at 4.24 4.6) (layer F.SilkS) hide
@@ -7,6 +7,7 @@
   (fp_text value Rotary_Encoder_Switch (at 0 7.9) (layer F.Fab)
     (effects (font (size 1 1) (thickness 0.15)))
   )
+  (fp_circle (center 0 0) (end 10 0) (layer Eco1.User) (width 0.15))
   (fp_line (start -0.5 0) (end 0.5 0) (layer B.SilkS) (width 0.12))
   (fp_line (start 0 -0.5) (end 0 0.5) (layer B.SilkS) (width 0.12))
   (fp_circle (center 0 0) (end 3 0) (layer B.SilkS) (width 0.12))
