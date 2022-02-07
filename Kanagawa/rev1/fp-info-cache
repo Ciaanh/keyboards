@@ -1,4 +1,4 @@
-19951779689417484
+19953753008186347
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -84573,6 +84573,13 @@ MountingHole_2.4mm_M2
 0
 1
 0
+keyboard
+MountingHole_3.2mm_M2_Pad_Via
+Mounting Hole 2.2mm, M2
+mounting hole 2.2mm m2
+0
+9
+1
 keyboard
 MountingHole_4.7mm_M2_Spacer
 MountingHole_4.7mm_M2 for spacer
