@@ -125,9 +125,7 @@ Comparer à la forme d'une main on peut légitimement se demander si on ne peut 
 Et c'est justement la question que des milier de makers se pose.
 Est alors apparu le mouvement des Custom Mecanical Keyboards, le but est simple : repenser la forme et les usages des claviers.
 
-![macropad](https://raw.githubusercontent.com/Ciaanh/keyboards/main/talk/pictures/16-macropad.jpg)
-
-![numpad](https://raw.githubusercontent.com/Ciaanh/keyboards/main/talk/pictures/17-numpad.png)
+![macropad](https://raw.githubusercontent.com/Ciaanh/keyboards/main/talk/pictures/16-macropad.jpg) ![numpad](https://raw.githubusercontent.com/Ciaanh/keyboards/main/talk/pictures/17-numpad.png)
 
 Evidemment quand on décide de fabriquer son propre clavier le choix des composants se pose rapidement et ça peut etre un problème.
 En premier les switchs qui, en fonction de vos préferences (type de switch, mecanisme, force des resorts, lubrification, amortisseur de frappe), peuvent donner le vertige avec plusieurs dizaine de références différentes.
@@ -183,13 +181,7 @@ Une autre particularité des microcontrolleurs est de pouvoir communiquer, avec 
 Pourquoi ne pas ajouter une écran ? un buzzer ? un trackball ? un retour haptique ?
 L'ensemble des composants électroniques de la scene maker est accessible pour n'importe quel projet.
 
-![speaker](https://raw.githubusercontent.com/Ciaanh/keyboards/main/talk/pictures/26-speaker.png)
-
-![oled](https://raw.githubusercontent.com/Ciaanh/keyboards/main/talk/pictures/27-oled.png)
-
-![trackball](https://raw.githubusercontent.com/Ciaanh/keyboards/main/talk/pictures/28-trackball.png)
-
-![haptic](https://raw.githubusercontent.com/Ciaanh/keyboards/main/talk/pictures/29-haptic.png)
+![speaker](https://raw.githubusercontent.com/Ciaanh/keyboards/main/talk/pictures/26-speaker.png) ![oled](https://raw.githubusercontent.com/Ciaanh/keyboards/main/talk/pictures/27-oled.png) ![trackball](https://raw.githubusercontent.com/Ciaanh/keyboards/main/talk/pictures/28-trackball.png) ![haptic](https://raw.githubusercontent.com/Ciaanh/keyboards/main/talk/pictures/29-haptic.png)
 
 Mais un microcontrolleur peut aussi communiquer avec un autre microcontrolleur et il devient possible de combiner deux claviers pour obtenir un "split" keyboard, Premier pas dans le vaste univers des "ergo" où la priorité devient le confort avec la recherche de la meilleur position des mains et des doigts.
 
@@ -217,23 +209,23 @@ Mais tant qu'à modifier un clavier existant pourquoi ne pas passer au niveau su
 
 Car au final ce n'est pas si compliqué que ça, il est alors possible de concevoir son propre clavier à soit :
 
-Le handwiring : cette mouvance assez minimaliste ne va se préoccuper que de fabriquer la plaque où les switchs viennent s'insérer. Pas de circuit imprimé, tout est câblé à la main. Simple et rapide pour faire du prototypage mais aussi efficace pour débuter.
+Le handwiring : cette approche assez minimaliste ne va se préoccuper que de fabriquer la plaque où les switchs viennent s'insérer. Pas de circuit imprimé, tout est câblé à la main. Simple et rapide pour faire du prototypage mais aussi efficace pour débuter.
 
 ![handwire](https://raw.githubusercontent.com/Ciaanh/keyboards/main/talk/pictures/35-handwire.jpg)
 
-Si il vous reste des notions d'électronique du collège, fabriquer votre propre circuit ne sera pas bien dur non plus. Internet regorge de tutoriels sur la prise en main de Kicad (logiciel OpenSource pour la conception du circuit imprimé), l'utilisation d'un microcontrolleur type Arduino nous évitant les soudures les plus délicates.
+Si il vous reste des notions d'électronique du collège, fabriquer votre propre circuit ne sera pas bien dur non plus. Internet regorge de tutoriels sur la prise en main de [Kicad](https://www.kicad.org/) (logiciel OpenSource pour la conception du circuit imprimé), l'utilisation d'un microcontrolleur type Arduino nous évitant les soudures les plus délicates.
 
 ![kicad](https://raw.githubusercontent.com/Ciaanh/keyboards/main/talk/pictures/36-kicad.png)
 
 Avec un peu de dexterité vous pourrez aussi vous passer de microcontrolleur externe et souder le processeur au circuit directement, plus délicat mais permettant de se séparer des contraintes du microcontrolleur type Arduino qui n'expose pas toujours toutes les entrée/sorties.
 
-Pour le boitier il sera très simple de faire un sandwich, un clavier fait avec trois couches de circuit imprimé, mais il sera tout aussi simple de lancer Fusion360 pour concevoir un boitier déstiné à l'impression 3D.
+Pour le boitier il sera très simple de faire un sandwich, un clavier fait avec trois couches de circuit imprimé, mais il sera tout aussi simple de lancer [Fusion360](https://www.autodesk.fr/products/fusion-360/overview) pour concevoir un boitier déstiné à l'impression 3D.
 
 ![fusion360](https://raw.githubusercontent.com/Ciaanh/keyboards/main/talk/pictures/37-fusion360.png)
 
 Pour les plus accroc au code il est aussi possible de concevoir son propre firmware. Des librairies sont disponnibles dans presque tous les langages et c'est ainsi qu'on se retrouve avec [KMK](https://github.com/KMKfw/kmk_firmware), un équivalent du firmware QMK écrit en Python et concu pour fonctionner avec CircuitPython sur un RapberryPi Pico ou encore divers experimentations de firmwares en [Rust](https://github.com/ah-/anne-key).
 
-Mais il reste le dernier niveau, le boss final du clavier custom : le Dactyl Manuform.
+Mais il reste le dernier niveau, le boss final du clavier custom : le [Dactyl Manuform](https://github.com/tshort/dactyl-keyboard).
 
 ![dactyl-manuform](https://raw.githubusercontent.com/Ciaanh/keyboards/main/talk/pictures/38-dactyl.jpg)
 
@@ -244,7 +236,7 @@ Bref on se trouve dans la personnalisation la plus poussée mais etonament pas l
 
 Pour ma part l'approche que j'ai choisi pour mon clavier est de concevoir mon propre circuit.
 
-Je suis parti d'un controlleur Elite-C avec 24 I/O pins de chez Keebio avec un firmware QMK.
+Je suis parti d'un controlleur [Elite-C](https://keeb.io/products/elite-c-low-profile-version-usb-c-pro-micro-replacement-atmega32u4) avec 24 I/O pins de chez Keebio avec un firmware QMK.
 
 Tout a été concu avec Kicad et un script Python qui permet de générer trois circuits imprimés différents.
 
@@ -262,8 +254,37 @@ Le résultat est un format 75% avec un écran oled et encodeur rotatif pour gér
 
 Bien qu'encore "amateur", ce clavier représente un peu plus de 200 heures de travail et le coût des composants avoisine les 250€ pour un modèle unique et bien entendu en [OpenHarware](https://github.com/Ciaanh/keyboards/tree/main/Kanagawa).
 
-![situation under control](https://raw.githubusercontent.com/Ciaanh/keyboards/main/talk/pictures/Situation-under-control.png)
-
 ## References
 
-TODO
+-   **_Scanner une matrice_**http://kuku.eu.org/?projects/keyboard/index
+-   **_Fonctionnement d'un switch_** https://uxdesign.cc/fascinations-on-mechanical-keyboard-228e04a535cc
+-   **_Tables de référence HID_** https://usb.org/sites/default/files/hut1_3_0.pdf
+-   **_Keycaps Boba Fett_** https://novelkeys.com/products/gmk-boba-fett
+-   **_Coparaison de switchs_** https://twitter.com/dygmalab/status/993946691068809216
+-   **_Profile de touches_** https://thekeeblog.com/overview-of-different-keycap-profiles/
+-   **_Choisir son clavier_** https://www.keyboard.university/
+-   **_Résumé des tailles de claviers_** https://keebnews.com/keyboard-sizes/
+-   **_Composants additionnels_** https://shop.pimoroni.com/
+-   Dispositions de touches
+    1. **_ISO vs ANSI_** https://en.wikipedia.org/wiki/Keyboard_layout
+    2. **_AZERTY_** https://fr.wikipedia.org/wiki/AZERTY
+    3. **_QWERTY_** https://fr.wikipedia.org/wiki/QWERTY
+    4. **_AZERTY+_** https://fr.wikipedia.org/wiki/AZERTY#Version_de_la_norme_Afnor
+    5. **_QWERTY international_** https://fr.wikipedia.org/wiki/QWERTY#Variantes_internationales
+    6. **_DVORAK_** https://fr.wikipedia.org/wiki/Disposition_Dvorak
+    7. **_BÉPO_** https://fr.wikipedia.org/wiki/B%C3%A9po
+
+-   Exemples de claviers
+    1. **_macropad_** https://www.thingiverse.com/thing:3562600
+    2. **_dumbpad_** https://github.com/imchipwood/dumbpad
+    3. **_Clavier 75%_** https://www.reddit.com/r/MechanicalKeyboards/comments/i40tr3/n7584_75_layout_through_hole_keyboard/
+    4. **_Clavier 60%_** https://keeb.io/products/wtf60-mirrored-60-keyboard-pcb
+    5. **_Clavier 40%_** https://keeb.io/products/dsp40-40-staggered-or-ortholinear-keyboard
+    6. **_Clavier full size splitted_** https://keeb.io/collections/pre-built-keyboards/products/kbo-5000-keyboard-pre-built
+    7. **_Ergodash_** https://github.com/omkbd/ErgoDash
+    8. **_Ducky_** https://www.duckychannel.com.tw/en
+    9. **_Ergodox_** https://ergodox-ez.com/
+    10. **_PCB pour clavier Sinc_** https://keeb.io/collections/sinc/products/sinc-split-staggered-75-keyboard
+    11. **_Clavier câblé main (handwired)_** https://deskthority.net/viewtopic.php?t=14224
+    12. **_Dactyl Manuform_** https://www.reddit.com/r/MechanicalKeyboards/comments/dkih5b/my_dactyl_manuform_mini_with_only_one_teensy_for/
+    13. **_Clavier Razer_** https://www.razer.com/fr-fr/pc/gaming-keyboards-and-keypads
