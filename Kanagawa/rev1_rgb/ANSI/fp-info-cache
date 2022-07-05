@@ -1,4 +1,4 @@
-19956709043607576
+19963333393869047
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -84490,6 +84490,13 @@ Ciaanh_signature_back
 0
 0
 keyboard
+Crystal_SMD_HC49-US
+SMD Crystal HC-49-SD http://cdn-reichelt.de/documents/datenblatt/B400/xxx-HC49-SMD.pdf, 11.4x4.7mm^2 package
+SMD SMT crystal
+0
+2
+2
+keyboard
 Cthulhu_logo
 
 
@@ -84623,6 +84630,13 @@ OLED 0.96 inch 128x64 I2C
 4
 4
 keyboard
+PinHeader_1x05_P2.54mm_Vertical
+Through hole straight pin header, 1x05, 2.54mm pitch, single row
+Through hole pin header THT 1x05 2.54mm single row
+0
+5
+5
+keyboard
 PinHeader_2x15_P2.54mm_Vertical
 Through hole straight pin header, 2x15, 2.54mm pitch, double rows
 Through hole pin header THT 2x15 2.54mm double row
@@ -84636,6 +84650,20 @@ Pro_Micro
 0
 24
 24
+keyboard
+RP2040-QFN-56
+QFN, 56 Pin (http://www.cypress.com/file/416486/download#page=40), generated with kicad-footprint-generator ipc_dfn_qfn_generator.py
+QFN DFN_QFN
+0
+70
+57
+keyboard
+RPi_Pico_SMD_TH
+Through hole straight pin header, 2x20, 2.54mm pitch, double rows
+Through hole pin header THT 2x20 2.54mm double row
+0
+86
+43
 keyboard
 RPi_Pico_TH
 Through hole straight pin header, 2x20, 2.54mm pitch, double rows
