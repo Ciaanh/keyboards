@@ -1,4 +1,4 @@
-20417585685408221
+20402699088684347
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -85967,13 +85967,6 @@ SW_Cherry_MX_1.00u_SK6812MINI-E_Hotswap
 6
 6
 keyboard
-SW_Cherry_MX_1.00u_SK6812MINI_Hotswap
-
-
-0
-6
-6
-keyboard
 SW_Cherry_MX_1.25u
 
 
@@ -85996,13 +85989,6 @@ SW_Cherry_MX_1.25u_Hotswap_LED
 4
 keyboard
 SW_Cherry_MX_1.25u_SK6812MINI-E_Hotswap
-
-
-0
-6
-6
-keyboard
-SW_Cherry_MX_1.25u_SK6812MINI_Hotswap
 
 
 0
@@ -86037,13 +86023,6 @@ SW_Cherry_MX_1.50u_SK6812MINI-E_Hotswap
 6
 6
 keyboard
-SW_Cherry_MX_1.50u_SK6812MINI_Hotswap
-
-
-0
-6
-6
-keyboard
 SW_Cherry_MX_1.75u
 
 
@@ -86072,13 +86051,6 @@ SW_Cherry_MX_1.75u_SK6812MINI-E_Hotswap
 6
 6
 keyboard
-SW_Cherry_MX_1.75u_SK6812MINI_Hotswap
-
-
-0
-6
-6
-keyboard
 SW_Cherry_MX_2.00u
 
 
@@ -86101,13 +86073,6 @@ SW_Cherry_MX_2.00u_Hotswap_LED
 4
 keyboard
 SW_Cherry_MX_2.00u_SK6812MINI-E_Hotswap
-
-
-0
-6
-6
-keyboard
-SW_Cherry_MX_2.00u_SK6812MINI_Hotswap
 
 
 0
@@ -86156,20 +86121,6 @@ SW_Cherry_MX_2.25u_SK6812MINI-E_Hotswap
 6
 6
 keyboard
-SW_Cherry_MX_2.25u_SK6812MINI_Hotswap
-
-
-0
-6
-6
-keyboard
-SW_Cherry_MX_2.25x1.25+1u_SK6812MINI-E_Hotswap
-
-
-0
-18
-12
-keyboard
 SW_Cherry_MX_2.50u
 
 
@@ -86198,13 +86149,6 @@ SW_Cherry_MX_2.50u_SK6812MINI-E_Hotswap
 6
 6
 keyboard
-SW_Cherry_MX_2.50u_SK6812MINI_Hotswap
-
-
-0
-6
-6
-keyboard
 SW_Cherry_MX_2.75u
 
 
@@ -86227,13 +86171,6 @@ SW_Cherry_MX_2.75u_Hotswap_LED
 4
 keyboard
 SW_Cherry_MX_2.75u_SK6812MINI-E_Hotswap
-
-
-0
-6
-6
-keyboard
-SW_Cherry_MX_2.75u_SK6812MINI_Hotswap
 
 
 0
