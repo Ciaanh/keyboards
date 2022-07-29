@@ -6054,7 +6054,6 @@
     )
   )
 
-
   (junction (at 223.393 226.187) (diameter 0) (color 0 0 0 0)
     (uuid 015f5586-ba76-4a98-9114-f5cd2c67134d)
   )
@@ -8417,7 +8416,7 @@
     (effects (font (size 1.27 1.27)) (justify right bottom))
     (uuid 0ab1512b-eb91-4574-b11f-326e0ff10082)
   )
-  (label "G" (at 30.353 121.92 180)
+  (label "GND" (at 30.353 121.92 180)
     (effects (font (size 1.27 1.27)) (justify right bottom))
     (uuid 0b57dd55-1037-406e-862a-4e791d408ee4)
   )
@@ -8749,7 +8748,7 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 4c717b47-484c-4d70-8fcd-83c406ff2d17)
   )
-  (label "G" (at 50.165 104.648 0)
+  (label "GND" (at 50.165 104.648 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 4c776c31-ef21-4256-acb4-c5d765477b4c)
   )
