@@ -134,7 +134,7 @@
   (pad "39" smd rect (at -7 -11.65 270) (size 2.8 1.5) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp aaeaa1d8-d020-434f-9682-8f44d4e1dd90))
   (pad "40" smd rect (at -9 -11.65 270) (size 2.8 1.5) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 467952d0-0a9a-4a65-8d78-310209b0206d))
   (pad "40" thru_hole oval (at -9 -11) (size 1.35 1.35) (drill 0.8) (layers *.Cu *.Mask) (tstamp dab46582-d741-4ceb-a320-b50dd5243d25))
-  (model "${KIPRJMOD}/rp2040_stamp_footprints/KiCad/RP2040_Stamp.3dshapes/RP2040_Stamp.step"
+  (model "${KEYBOARD}/RP2040_Stamp.step"
     (offset (xyz -0.05 0.05 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))
