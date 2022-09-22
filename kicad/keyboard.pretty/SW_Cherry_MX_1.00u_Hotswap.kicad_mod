@@ -60,4 +60,9 @@
   (pad "" np_thru_hole circle (at 9.525 9.525 90) (size 4.1 4.1) (drill 4.1) (layers *.Cu *.Mask) (tstamp f883ef12-cecb-4b68-aeff-3c3494780251))
   (pad "1" smd rect (at 2.525 6.945 180) (size 2.3 2) (layers "B.Cu" "B.Paste" "B.Mask") (tstamp 74f4d084-c239-4771-bb9d-8eb894bc66ca))
   (pad "2" smd rect (at 15.225 4.405 180) (size 2.3 2) (layers "B.Cu" "B.Paste" "B.Mask") (tstamp 49f16bed-aace-45fd-adf1-2b297c0e8522))
+  (model "${KEYBOARD}/SW_Cherry_MX_PCB.step"
+    (offset (xyz 9.78 -9.2 5.5))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 180 0 90))
+  )
 )

@@ -81,4 +81,9 @@
   (pad "4" smd rect (at 14.11875 15.275) (size 1.7 0.82) (layers "B.Cu" "B.Paste" "B.Mask") (tstamp 224ef43e-ebfc-4ffb-a1d1-9bb8c70c3a90))
   (pad "5" smd roundrect (at 19.21875 15.275) (size 1.7 0.82) (layers "B.Cu" "B.Paste" "B.Mask") (roundrect_rratio 0.25) (tstamp 16b99238-a1e8-4e6d-9fc0-343ca8f0d545))
   (pad "6" smd rect (at 19.21875 13.775) (size 1.7 0.82) (layers "B.Cu" "B.Paste" "B.Mask") (tstamp ff233ca2-55d2-4f20-8b45-abb7465f2955))
+  (model "${KEYBOARD}/SW_Cherry_MX_PCB.step"
+    (offset (xyz 16.98 -9.2 5.5))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 180 0 90))
+  )
 )

@@ -385,7 +385,8 @@
         "name": "Power",
         "nets": [
           "+5V",
-          "GND"
+          "GND",
+          "VBAT"
         ],
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
