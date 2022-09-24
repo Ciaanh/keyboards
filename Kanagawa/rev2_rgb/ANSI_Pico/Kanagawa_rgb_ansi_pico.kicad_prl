@@ -1,6 +1,6 @@
 {
   "board": {
-    "active_layer": 41,
+    "active_layer": 31,
     "active_layer_preset": "",
     "auto_track_width": false,
     "hidden_nets": [],
@@ -63,7 +63,7 @@
       36
     ],
     "visible_layers": "002ffff_ffffffff",
-    "zone_display_mode": 0
+    "zone_display_mode": 1
   },
   "meta": {
     "filename": "Kanagawa_rgb_ansi_pico.kicad_prl",

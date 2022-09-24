@@ -1,4 +1,4 @@
-20490400910988427
+20492091937422505
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -85988,19 +85988,26 @@ RP2040_Stamp_THT
 80
 40
 keyboard
+RPi_Pico_SMD
+PICO-2
+Connector
+0
+49
+49
+keyboard
 RPi_Pico_SMD_TH
 Through hole straight pin header, 2x20, 2.54mm pitch, double rows
 Through hole pin header THT 2x20 2.54mm double row
 0
-86
-43
+96
+49
 keyboard
 RPi_Pico_TH
 Through hole straight pin header, 2x20, 2.54mm pitch, double rows
 Through hole pin header THT 2x20 2.54mm double row
 0
-40
-40
+50
+46
 keyboard
 Resistors_SMD_THT
 D, DO-35_SOD27 series, Axial, Horizontal, pin pitch=10.16mm, , length*diameter=4*2mm^2, , http://www.diodes.com/_files/packages/DO-35.pdf
