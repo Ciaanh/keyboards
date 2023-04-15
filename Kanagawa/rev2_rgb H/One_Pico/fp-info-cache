@@ -1,4 +1,4 @@
-184256671352421
+186292421151616
 Keyboard
 BigWave
 
@@ -511,13 +511,6 @@ SW_Cherry_MX_2.25u_Hotswap_LED
 4
 4
 Keyboard
-SW_Cherry_MX_2.25u_ISO
-
-
-0
-8
-4
-Keyboard
 SW_Cherry_MX_2.25u_ISO_Hotswap
 
 
@@ -650,6 +643,20 @@ SW_RST
 0
 4
 3
+Keyboard
+SolderJumper
+SMD Solder Jumper, 1x1.5mm Triangular Pads, 0.3mm gap, open
+solder jumper open
+0
+2
+2
+Keyboard
+Stab cutout
+
+
+0
+0
+0
 Keyboard
 WS2812B
 

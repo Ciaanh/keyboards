@@ -103,13 +103,19 @@ def draw_circle(graphicalItem, module):
     # print("Draw circle: %s" % type(graphicalItem))
     circleRadius = graphicalItem.GetRadius()
     circleCenter = graphicalItem.GetCenter()
-    circleEnd = pcbnew.wxPoint(circleCenter.x + circleRadius,circleCenter.y) 
-
+   
     shape = pcbnew.PCB_SHAPE(module)
     shape.SetShape(pcbnew.S_CIRCLE)
     shape.SetWidth(ALL_LAYERS_WIDTH)
     shape.SetCenter(circleCenter)
-    shape.SetEnd(circleEnd)
+
+    circleEnd = pcbnew.wxPoint(circleCenter.x + circleRadius,circleCenter.y) 
+
+    # print("CircleEnd: %s" % circleEnd)
+    # print("CircleEnd type: %s" % type(circleEnd))
+    # shape.SetEnd(circleEnd)
+    shape.SetEndX(circleCenter.x + circleRadius)
+    shape.SetEndY(circleCenter.y)
 
     shape.Rotate(module.GetPosition(), module.GetOrientation())
 
