@@ -1,6 +1,6 @@
 PCB 1.6mm
 
-Plate 1.2mm
+Plate 1.2mm Chose ANSI or ISO
 
 Back plate 1.6mm
 
@@ -33,7 +33,7 @@ Electronics
 |83x SK6812MINI-E RGB LED for ISO, 82 for ANSI | https://fr.aliexpress.com/item/1005004908622116.html |
 
 1x Raspberry Pico
-83x MX switches for ISO, 82 for ANSI
+83x MX switches for ISO, 82 for ANSI - 5 pins switches recommended
 
 Your prefered keycaps set
 

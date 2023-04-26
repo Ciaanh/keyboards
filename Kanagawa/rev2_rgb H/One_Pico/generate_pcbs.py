@@ -18,7 +18,8 @@ this_dir = os.path.dirname(os.path.realpath(__file__))
 master_pcb = os.path.join(this_dir, "Kanagawa_rgb_pico.kicad_pcb")
 base_pcb = os.path.join(this_dir, "generated_pcbs", "base.kicad_pcb")
 middle_pcb = os.path.join(this_dir, "generated_pcbs", "middle.kicad_pcb")
-top_pcb = os.path.join(this_dir, "generated_pcbs", "top.kicad_pcb")
+ansi_plate_pcb = os.path.join(this_dir, "generated_pcbs", "ansi_plate.kicad_pcb")
+iso_plate_pcb = os.path.join(this_dir, "generated_pcbs", "iso_plate.kicad_pcb")
 
 ALL_LAYERS_WIDTH = 50000
 NOT_TOP_PLATE_WIDTH = 50010
@@ -231,10 +232,10 @@ def generate_middle_pcb():
     board.Save(middle_pcb)
 
 
-def generate_top_pcb():
+def generate_top_pcb(pcb_name):
     board = pcbnew.LoadBoard(master_pcb)
     edge_cuts_layer_id = board.GetLayerID(EDGE_CUT)
-    print("Creating top PCB: %s" % top_pcb)
+    print("Creating top PCB: %s" % pcb_name)
 
     extract_footprints_cutout(board)
 
@@ -263,9 +264,10 @@ def generate_top_pcb():
         board.Delete(d)
 
     refill_zones(board)
-    board.Save(top_pcb)
+    board.Save(pcb_name)
 
 
-generate_base_pcb()
+##generate_base_pcb()
 generate_middle_pcb()
-generate_top_pcb()
+generate_top_pcb(ansi_plate_pcb)
+generate_top_pcb(iso_plate_pcb)
