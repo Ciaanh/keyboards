@@ -73,21 +73,21 @@ Always better to start with the diodes (remember that the black stripe on the di
 
 Solder the 5.1kΩ resistors which are needed for the USB C port as a handshake with the host regarding the power needed for the device.
 
-![[Resistors.jpg]]
+![Resistors](./Resistors.jpg)
 
 ### 2 Install USB port and micro controller
 Solder the USB port which should face downward (very good guide [here](https://www.youtube.com/watch?v=ydPFCHNuRGM)).
 
-![[USB C.jpg]]
+![USB C port](./USB_C.jpg)
 
 
 In order to solder the Raspberry Pico we need to prepare the pad on the back of it. We are using the TP1 TP2 TP3 for the USB C port and TP6 for the Bootsel button.
-![[Pico back.png]]
+![Pico back](./Pico_back.png)
 
 Add a small amount of solder on the pads and solder diode legs before placing the Pico on the board without any spacer, the Pico should be in contact of the PCB.
 Just solder 3 or 4 pins of the Pico then flip the board and solder the diode legs. Flip again the board and finish soldering the Pico
 
-![[Pico.jpg]]
+![Pico](./Pico.jpg)
 
 Check that there is no short-circuit with a multimeter, a small error is easier to fix at this point (I use cut USB cables to check continuity between the Pico port and the board USB C port).
 
@@ -95,7 +95,7 @@ Check that there is no short-circuit with a multimeter, a small error is easier 
 
 Solder the two buttons for reset and bootsel.
 
-![[Buttons.jpg]]
+![Buttons](./Buttons.jpg)
 
 
 ### 4 RGB matrix [optional]
@@ -103,13 +103,13 @@ Solder the two buttons for reset and bootsel.
 If you want to use the RGB Matrix it is time solder the RGB diodes.
 If you are making an ANSI board don't forget to solder the jumper under the KE1 switch to bypass the KE1 RGB diode and not to solder an RGB diode at the KE1 position
 
-![[ANSI.jpg]]
+![ANSI](./ANSI.jpg)
 
 ### 5 Install hotswap sockets
 
 Solder the hot-swap sockets and be careful if you are making an ISO or ANSI board
 
-![[Socket.jpg]]
+![Socket](./Socket.jpg)
 
 
 
@@ -117,26 +117,26 @@ Solder the hot-swap sockets and be careful if you are making an ISO or ANSI boar
 
 Solder the rotary encoder which should face upward.
 
-![[Encoder.jpg]]
+![Encoder](./Encoder.jpg)
 
 
 
 
 ### 7 Place the stabilizer on the PCB
 
-![[Stabs.jpg]]
+![Stabs](./Stabs.jpg)
 
 ### 8 Case assembly - part 1
 
 Place the PCB support screws and standoffs on the plate, then place the plate in the right side of the case with the two screws and hex standoffs.
 
-![[case right.jpg]]
+![case right](./Case_right.jpg)
 
 If you are using foam between the plate and the PCB it is the right time to place it.
 
 Flip the plate and right side of the case then insert the rotary encoder with the PCB at an angle being careful of the two switches.
 
-![[Insert_PCB.jpg]]
+![Insert_PCB](./Insert_PCB.jpg)
 
 Once in place use the M2 nuts to screw the PCB to the plate.
 
@@ -144,20 +144,20 @@ Once in place use the M2 nuts to screw the PCB to the plate.
 
 Place and solder the Oled screen, I recommend to use two spacer or leave around 5mm between the board and the screen.
 
-![[Oled.jpg]]
+![Oled](./Oled.jpg)
 
 ### 10 Case assembly - part 2
 
 Place and screw in the remaining parts of the case from the right to the left of the board.
 
-![[Case.jpg]]
+![Case](./Case.jpg)
 
 Once all sides are screwed in place the dampening foam if using any and finally close the keyboard using the decorated backplate and screw it in.
 
-![[Backplate.jpg]]
+![Backplate](./Backplate.jpg)
 
 Check all screws are tight then place the switches.
 
-![[Switches.jpg]]
+![Switches](./Switches.jpg)
 
 Just remain to put the keycaps and enjoy your new keyboard.
