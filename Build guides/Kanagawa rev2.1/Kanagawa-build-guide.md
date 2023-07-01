@@ -12,7 +12,7 @@ PCB 1.6mm
 Plate 1.2mm Chose ANSI or ISO
 Back plate 1.6mm
 
-(gerber files available [here](https://github.com/Ciaanh/keyboards/tree/main/Kanagawa/rev2.1/generated_pcbs/gerber))
+(gerber files available [here](https://github.com/Ciaanh/keyboards/tree/main/Kanagawa/rev2.1/generated_pcbs/gerber) and the PCB can be ordered on mnufacturer website such as [PCBWay](https://www.pcbway.com/))
 
 PCB mounting screws
 
