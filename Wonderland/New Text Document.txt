@@ -1,0 +1,1 @@
+https://hackaday.io/page/11963-prototyping-kicad-designed-rp2040-pcb-using-jlcpcb-smt-assembly
