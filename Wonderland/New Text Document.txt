@@ -1,1 +1,8 @@
 https://hackaday.io/page/11963-prototyping-kicad-designed-rp2040-pcb-using-jlcpcb-smt-assembly
+
+
+https://github.com/Sleepdealr/Majestouch-2-TKL-Replacement-Controller
+https://github.com/Sleepdealr/Kingsaver-Replacement-PCB
+
+https://github.com/Sleepdealr/RP2040-designguide
+https://github.com/Sleepdealr/RPAD
