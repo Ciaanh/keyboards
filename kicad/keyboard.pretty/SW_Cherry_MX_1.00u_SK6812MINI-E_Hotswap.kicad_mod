@@ -17,10 +17,6 @@
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
     (tstamp 667f3be7-5fed-4aca-9d45-d2ecaba7fa81)
   )
-  (fp_text user "SW_PUSH" (at 4.725 17.825 -180) (layer "F.Fab") hide
-      (effects (font (size 1 1) (thickness 0.15)))
-    (tstamp a153a24f-fb0f-4e1d-9de8-4c4e5d1e923b)
-  )
   (fp_line (start 3.625 4.825) (end 3.625 5.825)
     (stroke (width 0.15) (type solid)) (layer "B.SilkS") (tstamp 33733444-34a0-4ba9-8831-0379ba498335))
   (fp_line (start 3.625 5.825) (end 3.825 5.825)
