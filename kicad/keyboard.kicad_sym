@@ -1525,10 +1525,10 @@
       (effects (font (size 1.27 1.27)))
     )
     (property "Footprint" "" (at 0 0 0)
-      (effects (font (size 1.27 1.27)))
+      (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "" (at 0 0 0)
-      (effects (font (size 1.27 1.27)))
+      (effects (font (size 1.27 1.27)) hide)
     )
     (symbol "KEY_SW_0_1"
       (rectangle (start -4.318 1.27) (end 4.318 1.524)

@@ -1238,7 +1238,7 @@
     (property "Value" "D" (at 0 -2.54 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "keyboard:Diode_SMD_THT" (at -0.3302 -4.2164 0)
+    (property "Footprint" "Keyboard:Diode_SMD_THT" (at -0.3302 -4.2164 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "" (at 0 0 0)
