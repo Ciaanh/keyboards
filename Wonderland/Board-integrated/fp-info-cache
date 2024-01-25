@@ -1,4 +1,4 @@
-23712640974061883
+23954806565222748
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -3117,6 +3117,20 @@ capacitor
 Capacitor_SMD
 C_1825_4564Metric_Pad1.57x6.80mm_HandSolder
 Capacitor SMD 1825 (4564 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size from: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator
+capacitor handsolder
+0
+2
+2
+Capacitor_SMD
+C_2220_5650Metric
+Capacitor SMD 2220 (5650 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size from: http://datasheets.avx.com/AVX-HV_MLCC.pdf), generated with kicad-footprint-generator
+capacitor
+0
+2
+2
+Capacitor_SMD
+C_2220_5650Metric_Pad1.97x5.40mm_HandSolder
+Capacitor SMD 2220 (5650 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size from: http://datasheets.avx.com/AVX-HV_MLCC.pdf), generated with kicad-footprint-generator
 capacitor handsolder
 0
 2
@@ -8876,6 +8890,13 @@ DIN 41612 IEC 60603 Q/2
 32
 32
 Connector_DIN
+DIN41612_Q2_2x16_Male_Horizontal_THT
+DIN41612 connector, type Q/2, Horizontal, 2 rows 16 pins wide, https://www.erni-x-press.com/de/downloads/kataloge/englische_kataloge/erni-din41612-iec60603-2-e.pdf
+DIN 41612 IEC 60603 Q/2
+0
+32
+32
+Connector_DIN
 DIN41612_Q2_2x16_Male_Vertical_THT
 DIN41612 connector, type Q/2, Vertical, 2 rows 16 pins wide, https://www.erni-x-press.com/de/downloads/kataloge/englische_kataloge/erni-din41612-iec60603-2-e.pdf
 DIN 41612 IEC 60603 Q/2
@@ -8884,6 +8905,13 @@ DIN 41612 IEC 60603 Q/2
 32
 Connector_DIN
 DIN41612_Q3_2x10_Female_Horizontal_THT
+DIN41612 connector, type Q/3, Horizontal, 2 rows 10 pins wide, https://www.erni-x-press.com/de/downloads/kataloge/englische_kataloge/erni-din41612-iec60603-2-e.pdf
+DIN 41612 IEC 60603 Q/3
+0
+20
+20
+Connector_DIN
+DIN41612_Q3_2x10_Male_Horizontal_THT
 DIN41612 connector, type Q/3, Horizontal, 2 rows 10 pins wide, https://www.erni-x-press.com/de/downloads/kataloge/englische_kataloge/erni-din41612-iec60603-2-e.pdf
 DIN 41612 IEC 60603 Q/3
 0
@@ -8904,6 +8932,13 @@ DIN 41612 IEC 60603 Q
 64
 64
 Connector_DIN
+DIN41612_Q_2x32_Male_Horizontal_THT
+DIN41612 connector, type Q, Horizontal, 2 rows 32 pins wide, https://www.erni-x-press.com/de/downloads/kataloge/englische_kataloge/erni-din41612-iec60603-2-e.pdf
+DIN 41612 IEC 60603 Q
+0
+64
+64
+Connector_DIN
 DIN41612_Q_2x32_Male_Vertical_THT
 DIN41612 connector, type Q, Vertical, 2 rows 32 pins wide, https://www.erni-x-press.com/de/downloads/kataloge/englische_kataloge/erni-din41612-iec60603-2-e.pdf
 DIN 41612 IEC 60603 Q
@@ -8912,6 +8947,13 @@ DIN 41612 IEC 60603 Q
 64
 Connector_DIN
 DIN41612_R2_2x16_Female_Horizontal_THT
+DIN41612 connector, type R/2, Horizontal, 3 rows 16 pins wide, https://www.erni-x-press.com/de/downloads/kataloge/englische_kataloge/erni-din41612-iec60603-2-e.pdf
+DIN 41612 IEC 60603 R/2
+0
+32
+32
+Connector_DIN
+DIN41612_R2_2x16_Male_Horizontal_THT
 DIN41612 connector, type R/2, Horizontal, 3 rows 16 pins wide, https://www.erni-x-press.com/de/downloads/kataloge/englische_kataloge/erni-din41612-iec60603-2-e.pdf
 DIN 41612 IEC 60603 R/2
 0
@@ -8932,6 +8974,13 @@ DIN 41612 IEC 60603 R/2
 48
 48
 Connector_DIN
+DIN41612_R2_3x16_Male_Horizontal_THT
+DIN41612 connector, type R/2, Horizontal, 3 rows 16 pins wide, https://www.erni-x-press.com/de/downloads/kataloge/englische_kataloge/erni-din41612-iec60603-2-e.pdf
+DIN 41612 IEC 60603 R/2
+0
+48
+48
+Connector_DIN
 DIN41612_R2_3x16_Male_Vertical_THT
 DIN41612 connector, type R/2, Vertical, 3 rows 16 pins wide, https://www.erni-x-press.com/de/downloads/kataloge/englische_kataloge/erni-din41612-iec60603-2-e.pdf
 DIN 41612 IEC 60603 R/2
@@ -8940,6 +8989,13 @@ DIN 41612 IEC 60603 R/2
 48
 Connector_DIN
 DIN41612_R3_2x10_Female_Horizontal_THT
+DIN41612 connector, type R/3, Horizontal, 3 rows 10 pins wide, https://www.erni-x-press.com/de/downloads/kataloge/englische_kataloge/erni-din41612-iec60603-2-e.pdf
+DIN 41612 IEC 60603 R/3
+0
+20
+20
+Connector_DIN
+DIN41612_R3_2x10_Male_Horizontal_THT
 DIN41612 connector, type R/3, Horizontal, 3 rows 10 pins wide, https://www.erni-x-press.com/de/downloads/kataloge/englische_kataloge/erni-din41612-iec60603-2-e.pdf
 DIN 41612 IEC 60603 R/3
 0
@@ -8960,6 +9016,13 @@ DIN 41612 IEC 60603 R/3
 30
 30
 Connector_DIN
+DIN41612_R3_3x10_Male_Horizontal_THT
+DIN41612 connector, type R/3, Horizontal, 3 rows 10 pins wide, https://www.erni-x-press.com/de/downloads/kataloge/englische_kataloge/erni-din41612-iec60603-2-e.pdf
+DIN 41612 IEC 60603 R/3
+0
+30
+30
+Connector_DIN
 DIN41612_R3_3x10_Male_Vertical_THT
 DIN41612 connector, type R/3, Vertical, 3 rows 10 pins wide, https://www.erni-x-press.com/de/downloads/kataloge/englische_kataloge/erni-din41612-iec60603-2-e.pdf
 DIN 41612 IEC 60603 R/3
@@ -8968,6 +9031,13 @@ DIN 41612 IEC 60603 R/3
 30
 Connector_DIN
 DIN41612_R_1x32_Female_Horizontal_THT
+DIN41612 connector, type R, Horizontal, 3 rows 32 pins wide, https://www.erni-x-press.com/de/downloads/kataloge/englische_kataloge/erni-din41612-iec60603-2-e.pdf
+DIN 41612 IEC 60603 R
+0
+32
+32
+Connector_DIN
+DIN41612_R_1x32_Male_Horizontal_THT
 DIN41612 connector, type R, Horizontal, 3 rows 32 pins wide, https://www.erni-x-press.com/de/downloads/kataloge/englische_kataloge/erni-din41612-iec60603-2-e.pdf
 DIN 41612 IEC 60603 R
 0
@@ -8988,6 +9058,13 @@ DIN 41612 IEC 60603 R
 32
 32
 Connector_DIN
+DIN41612_R_2x16_Male_Horizontal_THT
+DIN41612 connector, type R, Horizontal, 3 rows 32 pins wide, https://www.erni-x-press.com/de/downloads/kataloge/englische_kataloge/erni-din41612-iec60603-2-e.pdf
+DIN 41612 IEC 60603 R
+0
+32
+32
+Connector_DIN
 DIN41612_R_2x16_Male_Vertical_THT
 DIN41612 connector, type R, Vertical, 3 rows 32 pins wide, https://www.erni-x-press.com/de/downloads/kataloge/englische_kataloge/erni-din41612-iec60603-2-e.pdf
 DIN 41612 IEC 60603 R
@@ -8996,6 +9073,13 @@ DIN 41612 IEC 60603 R
 32
 Connector_DIN
 DIN41612_R_2x32_Female_Horizontal_THT
+DIN41612 connector, type R, Horizontal, 3 rows 32 pins wide, https://www.erni-x-press.com/de/downloads/kataloge/englische_kataloge/erni-din41612-iec60603-2-e.pdf
+DIN 41612 IEC 60603 R
+0
+64
+64
+Connector_DIN
+DIN41612_R_2x32_Male_Horizontal_THT
 DIN41612 connector, type R, Horizontal, 3 rows 32 pins wide, https://www.erni-x-press.com/de/downloads/kataloge/englische_kataloge/erni-din41612-iec60603-2-e.pdf
 DIN 41612 IEC 60603 R
 0
@@ -9016,6 +9100,13 @@ DIN 41612 IEC 60603 R
 48
 48
 Connector_DIN
+DIN41612_R_3x16_Male_Horizontal_THT
+DIN41612 connector, type R, Horizontal, 3 rows 32 pins wide, https://www.erni-x-press.com/de/downloads/kataloge/englische_kataloge/erni-din41612-iec60603-2-e.pdf
+DIN 41612 IEC 60603 R
+0
+48
+48
+Connector_DIN
 DIN41612_R_3x16_Male_Vertical_THT
 DIN41612 connector, type R, Vertical, 3 rows 32 pins wide, https://www.erni-x-press.com/de/downloads/kataloge/englische_kataloge/erni-din41612-iec60603-2-e.pdf
 DIN 41612 IEC 60603 R
@@ -9024,6 +9115,13 @@ DIN 41612 IEC 60603 R
 48
 Connector_DIN
 DIN41612_R_3x32_Female_Horizontal_THT
+DIN41612 connector, type R, Horizontal, 3 rows 32 pins wide, https://www.erni-x-press.com/de/downloads/kataloge/englische_kataloge/erni-din41612-iec60603-2-e.pdf
+DIN 41612 IEC 60603 R
+0
+96
+96
+Connector_DIN
+DIN41612_R_3x32_Male_Horizontal_THT
 DIN41612 connector, type R, Horizontal, 3 rows 32 pins wide, https://www.erni-x-press.com/de/downloads/kataloge/englische_kataloge/erni-din41612-iec60603-2-e.pdf
 DIN 41612 IEC 60603 R
 0
@@ -42784,6 +42882,13 @@ RJ9 Connector tab down
 4
 4
 Connector_RJ
+RJ12_Amphenol_54601
+RJ12 connector  https://cdn.amphenol-icc.com/media/wysiwyg/files/drawing/c-bmj-0082.pdf
+RJ12 connector
+0
+6
+6
+Connector_RJ
 RJ12_Amphenol_54601-x06_Horizontal
 RJ12 6P6C horizontal socket, plastic body, tab down, https://cdn.amphenol-icc.com/media/wysiwyg/files/drawing/c-bmj-0082.pdf
 RJ12 connector
@@ -42916,6 +43021,13 @@ Halo FastJack, Shielded, https://www.haloelectronics.com/pdf/fastjack-100baset.p
 0
 10
 9
+Connector_RJ
+RJ45_Hanrun_HR911105A
+http://www.kosmodrom.com.ua/pdf/HR911105A.pdf
+RJ45 Magjack
+0
+14
+13
 Connector_RJ
 RJ45_Hanrun_HR911105A_Horizontal
 1 Port RJ45 8P8C receptacle, shielded, with magnetics, through hole, 2 LEDs, tab down, http://www.hanrun.com/public/upload/down/2020/09-11/cc11be56d66bb63d5f1eeb85492439c0.pdf
@@ -61620,6 +61732,846 @@ solder jumper open
 0
 5
 3
+Kailh SW
+SW_Hotswap_Kailh_Choc_V1V2
+Kailh Choc keyswitch CPG1350 V1 CPG1353 V2 Hotswap
+Kailh Choc Keyswitch Switch CPG1350 V1 CPG1353 V2 Hotswap Cutout
+0
+2
+2
+Kailh SW
+SW_Hotswap_Kailh_Choc_V1V2_1.00u
+Kailh Choc keyswitch CPG1350 V1 CPG1353 V2 Hotswap with 1.00u keycap
+Kailh Choc Keyswitch Switch CPG1350 V1 CPG1353 V2 Hotswap Cutout 1.00u
+0
+2
+2
+Kailh SW
+SW_Hotswap_Kailh_Choc_V1V2_1.25u
+Kailh Choc keyswitch CPG1350 V1 CPG1353 V2 Hotswap with 1.25u keycap
+Kailh Choc Keyswitch Switch CPG1350 V1 CPG1353 V2 Hotswap Cutout 1.25u
+0
+2
+2
+Kailh SW
+SW_Hotswap_Kailh_Choc_V1V2_1.25u_90deg
+Kailh Choc keyswitch CPG1350 V1 CPG1353 V2 Hotswap with 1.25u 90deg keycap
+Kailh Choc Keyswitch Switch CPG1350 V1 CPG1353 V2 Hotswap Cutout 1.25u 90deg
+0
+2
+2
+Kailh SW
+SW_Hotswap_Kailh_Choc_V1V2_1.50u
+Kailh Choc keyswitch CPG1350 V1 CPG1353 V2 Hotswap with 1.50u keycap
+Kailh Choc Keyswitch Switch CPG1350 V1 CPG1353 V2 Hotswap Cutout 1.50u
+0
+2
+2
+Kailh SW
+SW_Hotswap_Kailh_Choc_V1V2_1.50u_90deg
+Kailh Choc keyswitch CPG1350 V1 CPG1353 V2 Hotswap with 1.50u 90deg keycap
+Kailh Choc Keyswitch Switch CPG1350 V1 CPG1353 V2 Hotswap Cutout 1.50u 90deg
+0
+2
+2
+Kailh SW
+SW_Hotswap_Kailh_Choc_V1V2_1.75u
+Kailh Choc keyswitch CPG1350 V1 CPG1353 V2 Hotswap with 1.75u keycap
+Kailh Choc Keyswitch Switch CPG1350 V1 CPG1353 V2 Hotswap Cutout 1.75u
+0
+2
+2
+Kailh SW
+SW_Hotswap_Kailh_Choc_V1V2_1.75u_90deg
+Kailh Choc keyswitch CPG1350 V1 CPG1353 V2 Hotswap with 1.75u 90deg keycap
+Kailh Choc Keyswitch Switch CPG1350 V1 CPG1353 V2 Hotswap Cutout 1.75u 90deg
+0
+2
+2
+Kailh SW
+SW_Hotswap_Kailh_Choc_V1V2_2.00u
+Kailh Choc keyswitch CPG1350 V1 CPG1353 V2 Hotswap with 2.00u keycap
+Kailh Choc Keyswitch Switch CPG1350 V1 CPG1353 V2 Hotswap Cutout 2.00u
+0
+2
+2
+Kailh SW
+SW_Hotswap_Kailh_Choc_V1V2_2.00u_90deg
+Kailh Choc keyswitch CPG1350 V1 CPG1353 V2 Hotswap with 2.00u 90deg keycap
+Kailh Choc Keyswitch Switch CPG1350 V1 CPG1353 V2 Hotswap Cutout 2.00u 90deg
+0
+2
+2
+Kailh SW
+SW_Hotswap_Kailh_Choc_V1V2_2.25u
+Kailh Choc keyswitch CPG1350 V1 CPG1353 V2 Hotswap with 2.25u keycap
+Kailh Choc Keyswitch Switch CPG1350 V1 CPG1353 V2 Hotswap Cutout 2.25u
+0
+2
+2
+Kailh SW
+SW_Hotswap_Kailh_Choc_V1V2_2.25u_90deg
+Kailh Choc keyswitch CPG1350 V1 CPG1353 V2 Hotswap with 2.25u 90deg keycap
+Kailh Choc Keyswitch Switch CPG1350 V1 CPG1353 V2 Hotswap Cutout 2.25u 90deg
+0
+2
+2
+Kailh SW
+SW_Hotswap_Kailh_Choc_V1V2_2.50u
+Kailh Choc keyswitch CPG1350 V1 CPG1353 V2 Hotswap with 2.50u keycap
+Kailh Choc Keyswitch Switch CPG1350 V1 CPG1353 V2 Hotswap Cutout 2.50u
+0
+2
+2
+Kailh SW
+SW_Hotswap_Kailh_Choc_V1V2_2.50u_90deg
+Kailh Choc keyswitch CPG1350 V1 CPG1353 V2 Hotswap with 2.50u 90deg keycap
+Kailh Choc Keyswitch Switch CPG1350 V1 CPG1353 V2 Hotswap Cutout 2.50u 90deg
+0
+2
+2
+Kailh SW
+SW_Hotswap_Kailh_Choc_V1V2_2.75u
+Kailh Choc keyswitch CPG1350 V1 CPG1353 V2 Hotswap with 2.75u keycap
+Kailh Choc Keyswitch Switch CPG1350 V1 CPG1353 V2 Hotswap Cutout 2.75u
+0
+2
+2
+Kailh SW
+SW_Hotswap_Kailh_Choc_V1V2_2.75u_90deg
+Kailh Choc keyswitch CPG1350 V1 CPG1353 V2 Hotswap with 2.75u 90deg keycap
+Kailh Choc Keyswitch Switch CPG1350 V1 CPG1353 V2 Hotswap Cutout 2.75u 90deg
+0
+2
+2
+Kailh SW
+SW_Hotswap_Kailh_Choc_V1V2_3.00u
+Kailh Choc keyswitch CPG1350 V1 CPG1353 V2 Hotswap with 3.00u keycap
+Kailh Choc Keyswitch Switch CPG1350 V1 CPG1353 V2 Hotswap Cutout 3.00u
+0
+2
+2
+Kailh SW
+SW_Hotswap_Kailh_Choc_V1V2_3.00u_90deg
+Kailh Choc keyswitch CPG1350 V1 CPG1353 V2 Hotswap with 3.00u 90deg keycap
+Kailh Choc Keyswitch Switch CPG1350 V1 CPG1353 V2 Hotswap Cutout 3.00u 90deg
+0
+2
+2
+Kailh SW
+SW_Hotswap_Kailh_Choc_V1V2_4.00u
+Kailh Choc keyswitch CPG1350 V1 CPG1353 V2 Hotswap with 4.00u keycap
+Kailh Choc Keyswitch Switch CPG1350 V1 CPG1353 V2 Hotswap Cutout 4.00u
+0
+2
+2
+Kailh SW
+SW_Hotswap_Kailh_Choc_V1V2_4.50u
+Kailh Choc keyswitch CPG1350 V1 CPG1353 V2 Hotswap with 4.50u keycap
+Kailh Choc Keyswitch Switch CPG1350 V1 CPG1353 V2 Hotswap Cutout 4.50u
+0
+2
+2
+Kailh SW
+SW_Hotswap_Kailh_Choc_V1V2_5.50u
+Kailh Choc keyswitch CPG1350 V1 CPG1353 V2 Hotswap with 5.50u keycap
+Kailh Choc Keyswitch Switch CPG1350 V1 CPG1353 V2 Hotswap Cutout 5.50u
+0
+2
+2
+Kailh SW
+SW_Hotswap_Kailh_Choc_V1V2_6.00u
+Kailh Choc keyswitch CPG1350 V1 CPG1353 V2 Hotswap with 6.00u keycap
+Kailh Choc Keyswitch Switch CPG1350 V1 CPG1353 V2 Hotswap Cutout 6.00u
+0
+2
+2
+Kailh SW
+SW_Hotswap_Kailh_Choc_V1V2_6.00u_Offset
+Kailh Choc keyswitch CPG1350 V1 CPG1353 V2 Hotswap with 6.00u Offset keycap
+Kailh Choc Keyswitch Switch CPG1350 V1 CPG1353 V2 Hotswap Cutout 6.00u Offset
+0
+2
+2
+Kailh SW
+SW_Hotswap_Kailh_Choc_V1V2_6.25u
+Kailh Choc keyswitch CPG1350 V1 CPG1353 V2 Hotswap with 6.25u keycap
+Kailh Choc Keyswitch Switch CPG1350 V1 CPG1353 V2 Hotswap Cutout 6.25u
+0
+2
+2
+Kailh SW
+SW_Hotswap_Kailh_Choc_V1V2_6.50u
+Kailh Choc keyswitch CPG1350 V1 CPG1353 V2 Hotswap with 6.50u keycap
+Kailh Choc Keyswitch Switch CPG1350 V1 CPG1353 V2 Hotswap Cutout 6.50u
+0
+2
+2
+Kailh SW
+SW_Hotswap_Kailh_Choc_V1V2_7.00u
+Kailh Choc keyswitch CPG1350 V1 CPG1353 V2 Hotswap with 7.00u keycap
+Kailh Choc Keyswitch Switch CPG1350 V1 CPG1353 V2 Hotswap Cutout 7.00u
+0
+2
+2
+Kailh SW
+SW_Hotswap_Kailh_Choc_V1V2_ISOEnter
+Kailh Choc keyswitch CPG1350 V1 CPG1353 V2 Hotswap with ISOEnter keycap
+Kailh Choc Keyswitch Switch CPG1350 V1 CPG1353 V2 Hotswap Cutout ISOEnter
+0
+2
+2
+Kailh SW
+SW_Hotswap_Kailh_Choc_V1V2_ISOEnter_90deg
+Kailh Choc keyswitch CPG1350 V1 CPG1353 V2 Hotswap with ISOEnter 90deg keycap
+Kailh Choc Keyswitch Switch CPG1350 V1 CPG1353 V2 Hotswap Cutout ISOEnter 90deg
+0
+2
+2
+Kailh SW
+SW_Hotswap_Kailh_Choc_V1V2_ISOEnter_180deg
+Kailh Choc keyswitch CPG1350 V1 CPG1353 V2 Hotswap with ISOEnter 180deg keycap
+Kailh Choc Keyswitch Switch CPG1350 V1 CPG1353 V2 Hotswap Cutout ISOEnter 180deg
+0
+2
+2
+Kailh SW
+SW_Hotswap_Kailh_Choc_V1V2_ISOEnter_270deg
+Kailh Choc keyswitch CPG1350 V1 CPG1353 V2 Hotswap with ISOEnter 270deg keycap
+Kailh Choc Keyswitch Switch CPG1350 V1 CPG1353 V2 Hotswap Cutout ISOEnter 270deg
+0
+2
+2
+Kailh SW
+SW_Hotswap_Kailh_Choc_V1V2_Plated
+Kailh Choc keyswitch CPG1350 V1 CPG1353 V2 Hotswap Plated
+Kailh Choc Keyswitch Switch CPG1350 V1 CPG1353 V2 Hotswap Plated Cutout
+0
+10
+2
+Kailh SW
+SW_Hotswap_Kailh_Choc_V1V2_Plated_1.00u
+Kailh Choc keyswitch CPG1350 V1 CPG1353 V2 Hotswap Plated with 1.00u keycap
+Kailh Choc Keyswitch Switch CPG1350 V1 CPG1353 V2 Hotswap Plated Cutout 1.00u
+0
+10
+2
+Kailh SW
+SW_Hotswap_Kailh_Choc_V1V2_Plated_1.25u
+Kailh Choc keyswitch CPG1350 V1 CPG1353 V2 Hotswap Plated with 1.25u keycap
+Kailh Choc Keyswitch Switch CPG1350 V1 CPG1353 V2 Hotswap Plated Cutout 1.25u
+0
+10
+2
+Kailh SW
+SW_Hotswap_Kailh_Choc_V1V2_Plated_1.25u_90deg
+Kailh Choc keyswitch CPG1350 V1 CPG1353 V2 Hotswap Plated with 1.25u 90deg keycap
+Kailh Choc Keyswitch Switch CPG1350 V1 CPG1353 V2 Hotswap Plated Cutout 1.25u 90deg
+0
+10
+2
+Kailh SW
+SW_Hotswap_Kailh_Choc_V1V2_Plated_1.50u
+Kailh Choc keyswitch CPG1350 V1 CPG1353 V2 Hotswap Plated with 1.50u keycap
+Kailh Choc Keyswitch Switch CPG1350 V1 CPG1353 V2 Hotswap Plated Cutout 1.50u
+0
+10
+2
+Kailh SW
+SW_Hotswap_Kailh_Choc_V1V2_Plated_1.50u_90deg
+Kailh Choc keyswitch CPG1350 V1 CPG1353 V2 Hotswap Plated with 1.50u 90deg keycap
+Kailh Choc Keyswitch Switch CPG1350 V1 CPG1353 V2 Hotswap Plated Cutout 1.50u 90deg
+0
+10
+2
+Kailh SW
+SW_Hotswap_Kailh_Choc_V1V2_Plated_1.75u
+Kailh Choc keyswitch CPG1350 V1 CPG1353 V2 Hotswap Plated with 1.75u keycap
+Kailh Choc Keyswitch Switch CPG1350 V1 CPG1353 V2 Hotswap Plated Cutout 1.75u
+0
+10
+2
+Kailh SW
+SW_Hotswap_Kailh_Choc_V1V2_Plated_1.75u_90deg
+Kailh Choc keyswitch CPG1350 V1 CPG1353 V2 Hotswap Plated with 1.75u 90deg keycap
+Kailh Choc Keyswitch Switch CPG1350 V1 CPG1353 V2 Hotswap Plated Cutout 1.75u 90deg
+0
+10
+2
+Kailh SW
+SW_Hotswap_Kailh_Choc_V1V2_Plated_2.00u
+Kailh Choc keyswitch CPG1350 V1 CPG1353 V2 Hotswap Plated with 2.00u keycap
+Kailh Choc Keyswitch Switch CPG1350 V1 CPG1353 V2 Hotswap Plated Cutout 2.00u
+0
+10
+2
+Kailh SW
+SW_Hotswap_Kailh_Choc_V1V2_Plated_2.00u_90deg
+Kailh Choc keyswitch CPG1350 V1 CPG1353 V2 Hotswap Plated with 2.00u 90deg keycap
+Kailh Choc Keyswitch Switch CPG1350 V1 CPG1353 V2 Hotswap Plated Cutout 2.00u 90deg
+0
+10
+2
+Kailh SW
+SW_Hotswap_Kailh_Choc_V1V2_Plated_2.25u
+Kailh Choc keyswitch CPG1350 V1 CPG1353 V2 Hotswap Plated with 2.25u keycap
+Kailh Choc Keyswitch Switch CPG1350 V1 CPG1353 V2 Hotswap Plated Cutout 2.25u
+0
+10
+2
+Kailh SW
+SW_Hotswap_Kailh_Choc_V1V2_Plated_2.25u_90deg
+Kailh Choc keyswitch CPG1350 V1 CPG1353 V2 Hotswap Plated with 2.25u 90deg keycap
+Kailh Choc Keyswitch Switch CPG1350 V1 CPG1353 V2 Hotswap Plated Cutout 2.25u 90deg
+0
+10
+2
+Kailh SW
+SW_Hotswap_Kailh_Choc_V1V2_Plated_2.50u
+Kailh Choc keyswitch CPG1350 V1 CPG1353 V2 Hotswap Plated with 2.50u keycap
+Kailh Choc Keyswitch Switch CPG1350 V1 CPG1353 V2 Hotswap Plated Cutout 2.50u
+0
+10
+2
+Kailh SW
+SW_Hotswap_Kailh_Choc_V1V2_Plated_2.50u_90deg
+Kailh Choc keyswitch CPG1350 V1 CPG1353 V2 Hotswap Plated with 2.50u 90deg keycap
+Kailh Choc Keyswitch Switch CPG1350 V1 CPG1353 V2 Hotswap Plated Cutout 2.50u 90deg
+0
+10
+2
+Kailh SW
+SW_Hotswap_Kailh_Choc_V1V2_Plated_2.75u
+Kailh Choc keyswitch CPG1350 V1 CPG1353 V2 Hotswap Plated with 2.75u keycap
+Kailh Choc Keyswitch Switch CPG1350 V1 CPG1353 V2 Hotswap Plated Cutout 2.75u
+0
+10
+2
+Kailh SW
+SW_Hotswap_Kailh_Choc_V1V2_Plated_2.75u_90deg
+Kailh Choc keyswitch CPG1350 V1 CPG1353 V2 Hotswap Plated with 2.75u 90deg keycap
+Kailh Choc Keyswitch Switch CPG1350 V1 CPG1353 V2 Hotswap Plated Cutout 2.75u 90deg
+0
+10
+2
+Kailh SW
+SW_Hotswap_Kailh_Choc_V1V2_Plated_3.00u
+Kailh Choc keyswitch CPG1350 V1 CPG1353 V2 Hotswap Plated with 3.00u keycap
+Kailh Choc Keyswitch Switch CPG1350 V1 CPG1353 V2 Hotswap Plated Cutout 3.00u
+0
+10
+2
+Kailh SW
+SW_Hotswap_Kailh_Choc_V1V2_Plated_3.00u_90deg
+Kailh Choc keyswitch CPG1350 V1 CPG1353 V2 Hotswap Plated with 3.00u 90deg keycap
+Kailh Choc Keyswitch Switch CPG1350 V1 CPG1353 V2 Hotswap Plated Cutout 3.00u 90deg
+0
+10
+2
+Kailh SW
+SW_Hotswap_Kailh_Choc_V1V2_Plated_4.00u
+Kailh Choc keyswitch CPG1350 V1 CPG1353 V2 Hotswap Plated with 4.00u keycap
+Kailh Choc Keyswitch Switch CPG1350 V1 CPG1353 V2 Hotswap Plated Cutout 4.00u
+0
+10
+2
+Kailh SW
+SW_Hotswap_Kailh_Choc_V1V2_Plated_4.50u
+Kailh Choc keyswitch CPG1350 V1 CPG1353 V2 Hotswap Plated with 4.50u keycap
+Kailh Choc Keyswitch Switch CPG1350 V1 CPG1353 V2 Hotswap Plated Cutout 4.50u
+0
+10
+2
+Kailh SW
+SW_Hotswap_Kailh_Choc_V1V2_Plated_5.50u
+Kailh Choc keyswitch CPG1350 V1 CPG1353 V2 Hotswap Plated with 5.50u keycap
+Kailh Choc Keyswitch Switch CPG1350 V1 CPG1353 V2 Hotswap Plated Cutout 5.50u
+0
+10
+2
+Kailh SW
+SW_Hotswap_Kailh_Choc_V1V2_Plated_6.00u
+Kailh Choc keyswitch CPG1350 V1 CPG1353 V2 Hotswap Plated with 6.00u keycap
+Kailh Choc Keyswitch Switch CPG1350 V1 CPG1353 V2 Hotswap Plated Cutout 6.00u
+0
+10
+2
+Kailh SW
+SW_Hotswap_Kailh_Choc_V1V2_Plated_6.00u_Offset
+Kailh Choc keyswitch CPG1350 V1 CPG1353 V2 Hotswap Plated with 6.00u Offset keycap
+Kailh Choc Keyswitch Switch CPG1350 V1 CPG1353 V2 Hotswap Plated Cutout 6.00u Offset
+0
+10
+2
+Kailh SW
+SW_Hotswap_Kailh_Choc_V1V2_Plated_6.25u
+Kailh Choc keyswitch CPG1350 V1 CPG1353 V2 Hotswap Plated with 6.25u keycap
+Kailh Choc Keyswitch Switch CPG1350 V1 CPG1353 V2 Hotswap Plated Cutout 6.25u
+0
+10
+2
+Kailh SW
+SW_Hotswap_Kailh_Choc_V1V2_Plated_6.50u
+Kailh Choc keyswitch CPG1350 V1 CPG1353 V2 Hotswap Plated with 6.50u keycap
+Kailh Choc Keyswitch Switch CPG1350 V1 CPG1353 V2 Hotswap Plated Cutout 6.50u
+0
+10
+2
+Kailh SW
+SW_Hotswap_Kailh_Choc_V1V2_Plated_7.00u
+Kailh Choc keyswitch CPG1350 V1 CPG1353 V2 Hotswap Plated with 7.00u keycap
+Kailh Choc Keyswitch Switch CPG1350 V1 CPG1353 V2 Hotswap Plated Cutout 7.00u
+0
+10
+2
+Kailh SW
+SW_Hotswap_Kailh_Choc_V1V2_Plated_ISOEnter
+Kailh Choc keyswitch CPG1350 V1 CPG1353 V2 Hotswap Plated with ISOEnter keycap
+Kailh Choc Keyswitch Switch CPG1350 V1 CPG1353 V2 Hotswap Plated Cutout ISOEnter
+0
+10
+2
+Kailh SW
+SW_Hotswap_Kailh_Choc_V1V2_Plated_ISOEnter_90deg
+Kailh Choc keyswitch CPG1350 V1 CPG1353 V2 Hotswap Plated with ISOEnter 90deg keycap
+Kailh Choc Keyswitch Switch CPG1350 V1 CPG1353 V2 Hotswap Plated Cutout ISOEnter 90deg
+0
+10
+2
+Kailh SW
+SW_Hotswap_Kailh_Choc_V1V2_Plated_ISOEnter_180deg
+Kailh Choc keyswitch CPG1350 V1 CPG1353 V2 Hotswap Plated with ISOEnter 180deg keycap
+Kailh Choc Keyswitch Switch CPG1350 V1 CPG1353 V2 Hotswap Plated Cutout ISOEnter 180deg
+0
+10
+2
+Kailh SW
+SW_Hotswap_Kailh_Choc_V1V2_Plated_ISOEnter_270deg
+Kailh Choc keyswitch CPG1350 V1 CPG1353 V2 Hotswap Plated with ISOEnter 270deg keycap
+Kailh Choc Keyswitch Switch CPG1350 V1 CPG1353 V2 Hotswap Plated Cutout ISOEnter 270deg
+0
+10
+2
+Kailh SW
+SW_Hotswap_Kailh_MX
+Kailh keyswitch Hotswap Socket
+Kailh Keyboard Keyswitch Switch Hotswap Socket Cutout
+0
+2
+2
+Kailh SW
+SW_Hotswap_Kailh_MX_1.00u
+Kailh keyswitch Hotswap Socket with 1.00u keycap
+Kailh Keyboard Keyswitch Switch Hotswap Socket Cutout 1.00u
+0
+2
+2
+Kailh SW
+SW_Hotswap_Kailh_MX_1.25u
+Kailh keyswitch Hotswap Socket with 1.25u keycap
+Kailh Keyboard Keyswitch Switch Hotswap Socket Cutout 1.25u
+0
+2
+2
+Kailh SW
+SW_Hotswap_Kailh_MX_1.25u_90deg
+Kailh keyswitch Hotswap Socket with 1.25u 90deg keycap
+Kailh Keyboard Keyswitch Switch Hotswap Socket Cutout 1.25u 90deg
+0
+2
+2
+Kailh SW
+SW_Hotswap_Kailh_MX_1.50u
+Kailh keyswitch Hotswap Socket with 1.50u keycap
+Kailh Keyboard Keyswitch Switch Hotswap Socket Cutout 1.50u
+0
+2
+2
+Kailh SW
+SW_Hotswap_Kailh_MX_1.50u_90deg
+Kailh keyswitch Hotswap Socket with 1.50u 90deg keycap
+Kailh Keyboard Keyswitch Switch Hotswap Socket Cutout 1.50u 90deg
+0
+2
+2
+Kailh SW
+SW_Hotswap_Kailh_MX_1.75u
+Kailh keyswitch Hotswap Socket with 1.75u keycap
+Kailh Keyboard Keyswitch Switch Hotswap Socket Cutout 1.75u
+0
+2
+2
+Kailh SW
+SW_Hotswap_Kailh_MX_1.75u_90deg
+Kailh keyswitch Hotswap Socket with 1.75u 90deg keycap
+Kailh Keyboard Keyswitch Switch Hotswap Socket Cutout 1.75u 90deg
+0
+2
+2
+Kailh SW
+SW_Hotswap_Kailh_MX_2.00u
+Kailh keyswitch Hotswap Socket with 2.00u keycap
+Kailh Keyboard Keyswitch Switch Hotswap Socket Cutout 2.00u
+0
+2
+2
+Kailh SW
+SW_Hotswap_Kailh_MX_2.00u_90deg
+Kailh keyswitch Hotswap Socket with 2.00u 90deg keycap
+Kailh Keyboard Keyswitch Switch Hotswap Socket Cutout 2.00u 90deg
+0
+2
+2
+Kailh SW
+SW_Hotswap_Kailh_MX_2.25u
+Kailh keyswitch Hotswap Socket with 2.25u keycap
+Kailh Keyboard Keyswitch Switch Hotswap Socket Cutout 2.25u
+0
+2
+2
+Kailh SW
+SW_Hotswap_Kailh_MX_2.25u_90deg
+Kailh keyswitch Hotswap Socket with 2.25u 90deg keycap
+Kailh Keyboard Keyswitch Switch Hotswap Socket Cutout 2.25u 90deg
+0
+2
+2
+Kailh SW
+SW_Hotswap_Kailh_MX_2.50u
+Kailh keyswitch Hotswap Socket with 2.50u keycap
+Kailh Keyboard Keyswitch Switch Hotswap Socket Cutout 2.50u
+0
+2
+2
+Kailh SW
+SW_Hotswap_Kailh_MX_2.50u_90deg
+Kailh keyswitch Hotswap Socket with 2.50u 90deg keycap
+Kailh Keyboard Keyswitch Switch Hotswap Socket Cutout 2.50u 90deg
+0
+2
+2
+Kailh SW
+SW_Hotswap_Kailh_MX_2.75u
+Kailh keyswitch Hotswap Socket with 2.75u keycap
+Kailh Keyboard Keyswitch Switch Hotswap Socket Cutout 2.75u
+0
+2
+2
+Kailh SW
+SW_Hotswap_Kailh_MX_2.75u_90deg
+Kailh keyswitch Hotswap Socket with 2.75u 90deg keycap
+Kailh Keyboard Keyswitch Switch Hotswap Socket Cutout 2.75u 90deg
+0
+2
+2
+Kailh SW
+SW_Hotswap_Kailh_MX_3.00u
+Kailh keyswitch Hotswap Socket with 3.00u keycap
+Kailh Keyboard Keyswitch Switch Hotswap Socket Cutout 3.00u
+0
+2
+2
+Kailh SW
+SW_Hotswap_Kailh_MX_3.00u_90deg
+Kailh keyswitch Hotswap Socket with 3.00u 90deg keycap
+Kailh Keyboard Keyswitch Switch Hotswap Socket Cutout 3.00u 90deg
+0
+2
+2
+Kailh SW
+SW_Hotswap_Kailh_MX_4.00u
+Kailh keyswitch Hotswap Socket with 4.00u keycap
+Kailh Keyboard Keyswitch Switch Hotswap Socket Cutout 4.00u
+0
+2
+2
+Kailh SW
+SW_Hotswap_Kailh_MX_4.50u
+Kailh keyswitch Hotswap Socket with 4.50u keycap
+Kailh Keyboard Keyswitch Switch Hotswap Socket Cutout 4.50u
+0
+2
+2
+Kailh SW
+SW_Hotswap_Kailh_MX_5.50u
+Kailh keyswitch Hotswap Socket with 5.50u keycap
+Kailh Keyboard Keyswitch Switch Hotswap Socket Cutout 5.50u
+0
+2
+2
+Kailh SW
+SW_Hotswap_Kailh_MX_6.00u
+Kailh keyswitch Hotswap Socket with 6.00u keycap
+Kailh Keyboard Keyswitch Switch Hotswap Socket Cutout 6.00u
+0
+2
+2
+Kailh SW
+SW_Hotswap_Kailh_MX_6.00u_Offset
+Kailh keyswitch Hotswap Socket with 6.00u Offset keycap
+Kailh Keyboard Keyswitch Switch Hotswap Socket Cutout 6.00u Offset
+0
+2
+2
+Kailh SW
+SW_Hotswap_Kailh_MX_6.25u
+Kailh keyswitch Hotswap Socket with 6.25u keycap
+Kailh Keyboard Keyswitch Switch Hotswap Socket Cutout 6.25u
+0
+2
+2
+Kailh SW
+SW_Hotswap_Kailh_MX_6.50u
+Kailh keyswitch Hotswap Socket with 6.50u keycap
+Kailh Keyboard Keyswitch Switch Hotswap Socket Cutout 6.50u
+0
+2
+2
+Kailh SW
+SW_Hotswap_Kailh_MX_7.00u
+Kailh keyswitch Hotswap Socket with 7.00u keycap
+Kailh Keyboard Keyswitch Switch Hotswap Socket Cutout 7.00u
+0
+2
+2
+Kailh SW
+SW_Hotswap_Kailh_MX_ISOEnter
+Kailh keyswitch Hotswap Socket with ISOEnter keycap
+Kailh Keyboard Keyswitch Switch Hotswap Socket Cutout ISOEnter
+0
+2
+2
+Kailh SW
+SW_Hotswap_Kailh_MX_ISOEnter_90deg
+Kailh keyswitch Hotswap Socket with ISOEnter 90deg keycap
+Kailh Keyboard Keyswitch Switch Hotswap Socket Cutout ISOEnter 90deg
+0
+2
+2
+Kailh SW
+SW_Hotswap_Kailh_MX_ISOEnter_180deg
+Kailh keyswitch Hotswap Socket with ISOEnter 180deg keycap
+Kailh Keyboard Keyswitch Switch Hotswap Socket Cutout ISOEnter 180deg
+0
+2
+2
+Kailh SW
+SW_Hotswap_Kailh_MX_ISOEnter_270deg
+Kailh keyswitch Hotswap Socket with ISOEnter 270deg keycap
+Kailh Keyboard Keyswitch Switch Hotswap Socket Cutout ISOEnter 270deg
+0
+2
+2
+Kailh SW
+SW_Hotswap_Kailh_MX_plated
+Kailh keyswitch Hotswap Socket plated holes
+Kailh Keyboard Keyswitch Switch Hotswap Socket plated Cutout
+0
+8
+2
+Kailh SW
+SW_Hotswap_Kailh_MX_plated_1.00u
+Kailh keyswitch Hotswap Socket plated holes with 1.00u keycap
+Kailh Keyboard Keyswitch Switch Hotswap Socket plated Cutout 1.00u
+0
+8
+2
+Kailh SW
+SW_Hotswap_Kailh_MX_plated_1.25u
+Kailh keyswitch Hotswap Socket plated holes with 1.25u keycap
+Kailh Keyboard Keyswitch Switch Hotswap Socket plated Cutout 1.25u
+0
+8
+2
+Kailh SW
+SW_Hotswap_Kailh_MX_plated_1.25u_90deg
+Kailh keyswitch Hotswap Socket plated holes with 1.25u 90deg keycap
+Kailh Keyboard Keyswitch Switch Hotswap Socket plated Cutout 1.25u 90deg
+0
+8
+2
+Kailh SW
+SW_Hotswap_Kailh_MX_plated_1.50u
+Kailh keyswitch Hotswap Socket plated holes with 1.50u keycap
+Kailh Keyboard Keyswitch Switch Hotswap Socket plated Cutout 1.50u
+0
+8
+2
+Kailh SW
+SW_Hotswap_Kailh_MX_plated_1.50u_90deg
+Kailh keyswitch Hotswap Socket plated holes with 1.50u 90deg keycap
+Kailh Keyboard Keyswitch Switch Hotswap Socket plated Cutout 1.50u 90deg
+0
+8
+2
+Kailh SW
+SW_Hotswap_Kailh_MX_plated_1.75u
+Kailh keyswitch Hotswap Socket plated holes with 1.75u keycap
+Kailh Keyboard Keyswitch Switch Hotswap Socket plated Cutout 1.75u
+0
+8
+2
+Kailh SW
+SW_Hotswap_Kailh_MX_plated_1.75u_90deg
+Kailh keyswitch Hotswap Socket plated holes with 1.75u 90deg keycap
+Kailh Keyboard Keyswitch Switch Hotswap Socket plated Cutout 1.75u 90deg
+0
+8
+2
+Kailh SW
+SW_Hotswap_Kailh_MX_plated_2.00u
+Kailh keyswitch Hotswap Socket plated holes with 2.00u keycap
+Kailh Keyboard Keyswitch Switch Hotswap Socket plated Cutout 2.00u
+0
+8
+2
+Kailh SW
+SW_Hotswap_Kailh_MX_plated_2.00u_90deg
+Kailh keyswitch Hotswap Socket plated holes with 2.00u 90deg keycap
+Kailh Keyboard Keyswitch Switch Hotswap Socket plated Cutout 2.00u 90deg
+0
+8
+2
+Kailh SW
+SW_Hotswap_Kailh_MX_plated_2.25u
+Kailh keyswitch Hotswap Socket plated holes with 2.25u keycap
+Kailh Keyboard Keyswitch Switch Hotswap Socket plated Cutout 2.25u
+0
+8
+2
+Kailh SW
+SW_Hotswap_Kailh_MX_plated_2.25u_90deg
+Kailh keyswitch Hotswap Socket plated holes with 2.25u 90deg keycap
+Kailh Keyboard Keyswitch Switch Hotswap Socket plated Cutout 2.25u 90deg
+0
+8
+2
+Kailh SW
+SW_Hotswap_Kailh_MX_plated_2.50u
+Kailh keyswitch Hotswap Socket plated holes with 2.50u keycap
+Kailh Keyboard Keyswitch Switch Hotswap Socket plated Cutout 2.50u
+0
+8
+2
+Kailh SW
+SW_Hotswap_Kailh_MX_plated_2.50u_90deg
+Kailh keyswitch Hotswap Socket plated holes with 2.50u 90deg keycap
+Kailh Keyboard Keyswitch Switch Hotswap Socket plated Cutout 2.50u 90deg
+0
+8
+2
+Kailh SW
+SW_Hotswap_Kailh_MX_plated_2.75u
+Kailh keyswitch Hotswap Socket plated holes with 2.75u keycap
+Kailh Keyboard Keyswitch Switch Hotswap Socket plated Cutout 2.75u
+0
+8
+2
+Kailh SW
+SW_Hotswap_Kailh_MX_plated_2.75u_90deg
+Kailh keyswitch Hotswap Socket plated holes with 2.75u 90deg keycap
+Kailh Keyboard Keyswitch Switch Hotswap Socket plated Cutout 2.75u 90deg
+0
+8
+2
+Kailh SW
+SW_Hotswap_Kailh_MX_plated_3.00u
+Kailh keyswitch Hotswap Socket plated holes with 3.00u keycap
+Kailh Keyboard Keyswitch Switch Hotswap Socket plated Cutout 3.00u
+0
+8
+2
+Kailh SW
+SW_Hotswap_Kailh_MX_plated_3.00u_90deg
+Kailh keyswitch Hotswap Socket plated holes with 3.00u 90deg keycap
+Kailh Keyboard Keyswitch Switch Hotswap Socket plated Cutout 3.00u 90deg
+0
+8
+2
+Kailh SW
+SW_Hotswap_Kailh_MX_plated_4.00u
+Kailh keyswitch Hotswap Socket plated holes with 4.00u keycap
+Kailh Keyboard Keyswitch Switch Hotswap Socket plated Cutout 4.00u
+0
+8
+2
+Kailh SW
+SW_Hotswap_Kailh_MX_plated_4.50u
+Kailh keyswitch Hotswap Socket plated holes with 4.50u keycap
+Kailh Keyboard Keyswitch Switch Hotswap Socket plated Cutout 4.50u
+0
+8
+2
+Kailh SW
+SW_Hotswap_Kailh_MX_plated_5.50u
+Kailh keyswitch Hotswap Socket plated holes with 5.50u keycap
+Kailh Keyboard Keyswitch Switch Hotswap Socket plated Cutout 5.50u
+0
+8
+2
+Kailh SW
+SW_Hotswap_Kailh_MX_plated_6.00u
+Kailh keyswitch Hotswap Socket plated holes with 6.00u keycap
+Kailh Keyboard Keyswitch Switch Hotswap Socket plated Cutout 6.00u
+0
+8
+2
+Kailh SW
+SW_Hotswap_Kailh_MX_plated_6.00u_Offset
+Kailh keyswitch Hotswap Socket plated holes with 6.00u Offset keycap
+Kailh Keyboard Keyswitch Switch Hotswap Socket plated Cutout 6.00u Offset
+0
+8
+2
+Kailh SW
+SW_Hotswap_Kailh_MX_plated_6.25u
+Kailh keyswitch Hotswap Socket plated holes with 6.25u keycap
+Kailh Keyboard Keyswitch Switch Hotswap Socket plated Cutout 6.25u
+0
+8
+2
+Kailh SW
+SW_Hotswap_Kailh_MX_plated_6.50u
+Kailh keyswitch Hotswap Socket plated holes with 6.50u keycap
+Kailh Keyboard Keyswitch Switch Hotswap Socket plated Cutout 6.50u
+0
+8
+2
+Kailh SW
+SW_Hotswap_Kailh_MX_plated_7.00u
+Kailh keyswitch Hotswap Socket plated holes with 7.00u keycap
+Kailh Keyboard Keyswitch Switch Hotswap Socket plated Cutout 7.00u
+0
+8
+2
+Kailh SW
+SW_Hotswap_Kailh_MX_plated_ISOEnter
+Kailh keyswitch Hotswap Socket plated holes with ISOEnter keycap
+Kailh Keyboard Keyswitch Switch Hotswap Socket plated Cutout ISOEnter
+0
+8
+2
+Kailh SW
+SW_Hotswap_Kailh_MX_plated_ISOEnter_90deg
+Kailh keyswitch Hotswap Socket plated holes with ISOEnter 90deg keycap
+Kailh Keyboard Keyswitch Switch Hotswap Socket plated Cutout ISOEnter 90deg
+0
+8
+2
+Kailh SW
+SW_Hotswap_Kailh_MX_plated_ISOEnter_180deg
+Kailh keyswitch Hotswap Socket plated holes with ISOEnter 180deg keycap
+Kailh Keyboard Keyswitch Switch Hotswap Socket plated Cutout ISOEnter 180deg
+0
+8
+2
+Kailh SW
+SW_Hotswap_Kailh_MX_plated_ISOEnter_270deg
+Kailh keyswitch Hotswap Socket plated holes with ISOEnter 270deg keycap
+Kailh Keyboard Keyswitch Switch Hotswap Socket plated Cutout ISOEnter 270deg
+0
+8
+2
 Keyboard
 BigWave
 
@@ -62262,8 +63214,8 @@ SW_Cherry_MX_2.75u_Hotswap_Reversed
 
 
 0
-6
-6
+2
+2
 Keyboard
 SW_Cherry_MX_2.75u_SK6812MINI-E
 
@@ -73829,6 +74781,20 @@ mlpq 32 7x7mm
 113
 49
 Package_DFN_QFN
+Infineon_MLPQ-48-1EP_7x7mm_P0.5mm_Pad5.15x5.15mm
+MLPQ 48 leads, 7x7mm (https://www.infineon.com/dgdl/irs2052mpbf.pdf?fileId=5546d462533600a401535675d3b32788)
+mlpq 32 7x7mm
+0
+117
+49
+Package_DFN_QFN
+Infineon_MLPQ-48-1EP_7x7mm_P0.5mm_Pad5.55x5.55mm
+MLPQ 48 leads, 7x7mm (https://www.infineon.com/dgdl/irs2093mpbf.pdf?fileId=5546d462533600a401535675fb892793)
+mlpq 32 7x7mm
+0
+117
+49
+Package_DFN_QFN
 Infineon_PQFN-22-15-4EP_6x5mm_P0.65mm
 PQFN 22 leads, 5x6mm, 0.127mm stencil (https://www.infineon.com/dgdl/ir4301.pdf?fileId=5546d462533600a4015355d5fc691819, https://www.infineon.com/dgdl/Infineon-AN1170-AN-v05_00-EN.pdf?fileId=5546d462533600a40153559ac3e51134)
 pqfn 22 5x6mm
@@ -75748,6 +76714,13 @@ UFQFPN 0.5
 20
 Package_DFN_QFN
 ST_UQFN-6L_1.5x1.7mm_P0.5mm
+ST UQFN 6 pin 0.5mm Pitch http://www.st.com/resource/en/datasheet/ecmf02-2amx6.pdf
+UQFN DFN 0.5 ST
+0
+6
+6
+Package_DFN_QFN
+ST_UQFN-6L_1.5x1.7mm_Pitch0.5mm
 ST UQFN 6 pin 0.5mm Pitch http://www.st.com/resource/en/datasheet/ecmf02-2amx6.pdf
 UQFN DFN 0.5 ST
 0
@@ -88361,6 +89334,13 @@ Kemet EC2 signal relay DPDT double dual coil latching through hole THT
 10
 10
 Relay_THT
+Relay_DPDT_Omron_G2RL
+Omron Relay DPDT, https://omronfs.omron.com/en_US/ecb/products/pdf/en-g2rl.pdf
+Omron Relay DPDT
+0
+8
+8
+Relay_THT
 Relay_DPDT_Omron_G2RL-2
 Omron Relay, DPDT, https://omronfs.omron.com/en_US/ecb/products/pdf/en-g2rl.pdf
 Omron Relay DPDT
@@ -90160,6 +91140,20 @@ rotary encoder
 7
 6
 Rotary_Encoder
+RotaryEncoder_Bourns_Horizontal_PEC12R-2xxxF-Nxxxx
+Bourns rotary encoder, PEC12R, without switch, horizontal shaft, https://www.bourns.com/docs/product-datasheets/pec12r.pdf
+rotary encoder
+0
+5
+4
+Rotary_Encoder
+RotaryEncoder_Bourns_Horizontal_PEC12R-2xxxF-Sxxxx
+Bourns rotary encoder, PEC12R, with switch, horizontal shaft, https://www.bourns.com/docs/product-datasheets/pec12r.pdf
+rotary encoder
+0
+7
+6
+Rotary_Encoder
 RotaryEncoder_Bourns_Vertical_PEC12R-3x17F-Nxxxx
 Bourns rotary encoder, PEC12R, without switch, with bushing, vertical shaft, 17.5mm shaft, https://www.bourns.com/docs/product-datasheets/pec12r.pdf
 rotary encoder
@@ -90169,6 +91163,20 @@ rotary encoder
 Rotary_Encoder
 RotaryEncoder_Bourns_Vertical_PEC12R-3x17F-Sxxxx
 Bourns rotary encoder, PEC12R, with switch, with bushing, vertical shaft, 17.5mm shaft, https://www.bourns.com/docs/product-datasheets/pec12r.pdf
+rotary encoder
+0
+7
+6
+Rotary_Encoder
+RotaryEncoder_Bourns_Vertical_PEC12R-3xxxF-Nxxxx
+Bourns rotary encoder, PEC12R, without switch, vertical shaft, https://www.bourns.com/docs/product-datasheets/pec12r.pdf
+rotary encoder
+0
+5
+4
+Rotary_Encoder
+RotaryEncoder_Bourns_Vertical_PEC12R-3xxxF-Sxxxx
+Bourns rotary encoder, PEC12R, with switch, vertical shaft, https://www.bourns.com/docs/product-datasheets/pec12r.pdf
 rotary encoder
 0
 7
