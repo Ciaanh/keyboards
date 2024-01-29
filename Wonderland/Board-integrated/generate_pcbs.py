@@ -9,6 +9,18 @@
 
 # /!\  this script is updated for Kicad 6
 
+# Board rules
+# Logo, Brace, Mount, DecorationHole are keywords for components which can appear on several layer.
+# The keywords Top, Middle indicate on which layer the components should appear.
+#
+# Regarding Edge Cuts
+# Edge cuts can be filtered using line width, for the middle layer only (MIDDLE_PLATE_WIDTH) or for all layers (ALL_LAYERS_WIDTH)
+# Lines in the User.Eco1 are converted as edge cuts for the Top layer
+#
+# Regarding Text
+# Text with 150100 (0.1501 mm) thickness will be maintained on all layer (ALL_LAYERS_TEXT_THICKNESS)
+
+
 import sys
 import os
 from typing import NoReturn
@@ -16,18 +28,18 @@ import pcbnew
 
 this_dir = os.path.dirname(os.path.realpath(__file__))
 master_pcb = os.path.join(this_dir, "Wonderland.kicad_pcb")
-base_pcb = os.path.join(this_dir, "generated_pcbs", "base.kicad_pcb")
-middle_pcb = os.path.join(this_dir, "generated_pcbs", "middle.kicad_pcb")
-ansi_plate_pcb = os.path.join(this_dir, "generated_pcbs", "ansi_plate.kicad_pcb")
-# iso_plate_pcb = os.path.join(this_dir, "generated_pcbs", "iso_plate.kicad_pcb")
 
-ALL_LAYERS_WIDTH = 50000
-NOT_TOP_PLATE_WIDTH = 50010
-ALL_LAYERS_TEXT_THICKNESS = 150100
+middle_pcb = os.path.join(this_dir, "generated_pcbs", "middle.kicad_pcb")
+plate_pcb = os.path.join(this_dir, "generated_pcbs", "plate.kicad_pcb")
+
+ALL_LAYERS_WIDTH          =   50000 # 0.050000 mm
+TOP_PLATE_WIDTH           =  250000 # 0.250000 mm
+MIDDLE_PLATE_WIDTH        =  200000 # 0.200000 mm
+ALL_LAYERS_TEXT_THICKNESS =  150100 # 0.150100 mm
 
 EDGE_CUT = "Edge.Cuts"
 ECO1_USER = "User.Eco1"
-ECO2_USER = "User.Eco2"
+# ECO2_USER = "User.Eco2"
 F_SILKS = "F.SilkS"
 B_SILKS = "B.SilkS"
 
@@ -40,10 +52,10 @@ def refill_zones(board):
     zones = board.Zones()
     filler.Fill(zones)
 
-
+####################################################################################
+# keywords for multi layer items
 def is_logo(module):
     return module.GetReference().startswith("Logo")
-
 
 def is_brace(module):
     return module.GetReference().startswith("Brace")
@@ -57,28 +69,25 @@ def is_decorationhole(module):
     return module.GetReference().startswith("DecorationHole")
 
 
-def is_for_base(module):
-    index = module.GetReference().find("Base")
-    return index > -1
-
-
+# Layer keywords
 def is_for_middle(module):
     index = module.GetReference().find("Middle")
     return index > -1
-
 
 def is_for_top(module):
     index = module.GetReference().find("Top")
     return index > -1
 
-
+####################################################################################
+# Clean electronics footprints
 def delete_electronics(board):
     for footprint in board.GetFootprints():
         if is_mount(footprint) or is_logo(footprint) or is_brace(footprint) or is_decorationhole(footprint):
             continue
         board.Delete(footprint)
 
-
+####################################################################################
+# Get cuts from the footprint User.Eco1 layer and clone to Edge Cuts
 def extract_footprints_cutout(board):
     edge_cuts_layer_id = board.GetLayerID(EDGE_CUT)
     for footprint in board.GetFootprints():
@@ -101,108 +110,56 @@ def clone_shape_to_board(graphicalItem, module):
 
 
 def draw_circle(graphicalItem, module):
-    # print("Draw circle: %s" % type(graphicalItem))
     circleRadius = graphicalItem.GetRadius()
     circleCenter = graphicalItem.GetCenter()
-   
     shape = pcbnew.PCB_SHAPE(module)
     shape.SetShape(pcbnew.S_CIRCLE)
     shape.SetWidth(ALL_LAYERS_WIDTH)
     shape.SetCenter(circleCenter)
-
     circleEnd = pcbnew.wxPoint(circleCenter.x + circleRadius,circleCenter.y) 
-
-    # print("CircleEnd: %s" % circleEnd)
-    # print("CircleEnd type: %s" % type(circleEnd))
-    # shape.SetEnd(circleEnd)
     shape.SetEndX(circleCenter.x + circleRadius)
     shape.SetEndY(circleCenter.y)
-
     shape.Rotate(module.GetPosition(), module.GetOrientation())
-
     return shape
 
 
 def draw_arc(graphicalItem, module):
-    # print("Draw arc: %s" % type(graphicalItem))
     arcStart = graphicalItem.GetStart()
     arcCenter = graphicalItem.GetCenter()
     arcAngle = graphicalItem.GetArcAngle()
-
     shape = pcbnew.PCB_SHAPE(module)
     shape.SetShape(pcbnew.S_ARC)
     shape.SetWidth(ALL_LAYERS_WIDTH)
-
     shape.SetStart(arcStart)
     shape.SetCenter(arcCenter)    
     shape.SetArcAngleAndEnd(arcAngle)
-
     shape.Rotate(module.GetPosition(), module.GetOrientation())
-
     return shape
 
-
 def draw_line(graphicalItem, module):
-    # print("Draw line: %s" % type(graphicalItem))
     position = module.GetPosition()
-
     edgeStart = graphicalItem.GetStart0()
     edgeStart.x = edgeStart.x + position.x
     edgeStart.y = edgeStart.y + position.y
-
     edgeEnd = graphicalItem.GetEnd0()
     edgeEnd.x = edgeEnd.x + position.x
     edgeEnd.y = edgeEnd.y + position.y
-
     shape = pcbnew.PCB_SHAPE(module)
     shape.SetWidth(ALL_LAYERS_WIDTH)
-
     shape.SetStart(edgeStart)
     shape.SetEnd(edgeEnd)
-
     shape.Rotate(position, module.GetOrientation())
-
     return shape
 
-
+# Delete all tracks
 def delete_tracks(board):
     for t in board.GetTracks():
         board.Delete(t)
 
 
-# def generate_base_pcb():
-#     board = pcbnew.LoadBoard(master_pcb)
-#     b_silk_layer_id = board.GetLayerID(B_SILKS)
-#     print("Creating base PCB: %s" % base_pcb)
-
-#     delete_electronics(board)
-
-#     for module in board.GetFootprints():
-#         if is_brace(module) or is_mount(module) or is_logo(module) or is_decorationhole(module):
-#             if not is_for_base(module):
-#                 board.Delete(module)
-
-#     delete_tracks(board)
-
-#     for d in board.GetDrawings():
-#         if type(d) is pcbnew.PCB_TEXT:
-#             if d.GetTextThickness() == ALL_LAYERS_TEXT_THICKNESS:
-#                 continue
-#         if d.GetLayerName() == EDGE_CUT:
-#             if type(d) is pcbnew.PCB_SHAPE:
-#                 if (
-#                     d.GetWidth() == NOT_TOP_PLATE_WIDTH
-#                     or d.GetWidth() == ALL_LAYERS_WIDTH
-#                 ):
-#                     continue
-#         if d.GetLayerName() == ECO2_USER:
-#             d.SetLayer(b_silk_layer_id)
-#             continue
-#         board.Delete(d)
-
-#     refill_zones(board)
-#     board.Save(base_pcb)
-
+####################################################################################
+####################################################################################
+####################################################################################
 
 def generate_middle_pcb():
     board = pcbnew.LoadBoard(master_pcb)
@@ -222,7 +179,7 @@ def generate_middle_pcb():
         if layer_name == EDGE_CUT:
             if type(d) is pcbnew.PCB_SHAPE:
                 if (
-                    d.GetWidth() == NOT_TOP_PLATE_WIDTH
+                    d.GetWidth() == MIDDLE_PLATE_WIDTH
                     or d.GetWidth() == ALL_LAYERS_WIDTH
                 ):
                     continue
@@ -257,7 +214,8 @@ def generate_top_pcb(pcb_name):
                 if d.GetWidth() == ALL_LAYERS_WIDTH:
                     continue
         if d.GetLayerName() == ECO1_USER:
-            is_for_top_plate = d.GetWidth() != NOT_TOP_PLATE_WIDTH
+            element_width = d.GetWidth()
+            is_for_top_plate = element_width != MIDDLE_PLATE_WIDTH or element_width == TOP_PLATE_WIDTH
             if is_for_top_plate:
                 d.SetLayer(edge_cuts_layer_id)
                 continue
@@ -267,7 +225,6 @@ def generate_top_pcb(pcb_name):
     board.Save(pcb_name)
 
 
-##generate_base_pcb()
 generate_middle_pcb()
-generate_top_pcb(ansi_plate_pcb)
-# generate_top_pcb(iso_plate_pcb)
+generate_top_pcb(plate_pcb)
+

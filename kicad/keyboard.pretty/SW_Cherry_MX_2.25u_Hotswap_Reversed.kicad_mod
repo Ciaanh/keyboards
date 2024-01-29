@@ -93,8 +93,6 @@
     (stroke (width 0.05) (type default)) (layer "Eco1.User") (tstamp ed5d1ede-f2e2-41ae-8512-8a7249cead8a))
   (fp_line (start 21.43125 2.475) (end 29.93125 2.475)
     (stroke (width 0.05) (type solid)) (layer "Eco1.User") (tstamp 2d59b56f-9220-4594-b6a5-aeb8fa16cfdf))
-  (fp_line (start 28.48125 2.475) (end 28.48125 3.475)
-    (stroke (width 0.05) (type solid)) (layer "Eco1.User") (tstamp 20c51e64-c447-40cf-919e-07be38be7363))
   (fp_line (start 28.48125 16.575) (end 14.38125 16.575)
     (stroke (width 0.05) (type solid)) (layer "Eco1.User") (tstamp c4269a30-485e-4c23-b399-e821008292b8))
   (fp_line (start 28.48125 16.575) (end 28.48125 15.575)
