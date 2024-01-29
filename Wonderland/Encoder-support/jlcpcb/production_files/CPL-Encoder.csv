@@ -1,0 +1,4 @@
+Designator,Val,Package,Mid X,Mid Y,Rotation,Layer
+J1,Conn_01x03,PinHeader_1x03_P2.54mm_Vertical,146.9,-42.5,-90.0,top
+J2,Conn_01x02,PinHeader_1x02_P2.54mm_Vertical,132.440003,-42.500001,-90.0,top
+SWA13,Rotary_Encoder_Switch,RotaryEncoder_EC11-Switch_Horizontal_H15mm,140.050001,-36.020001,90.0,top
