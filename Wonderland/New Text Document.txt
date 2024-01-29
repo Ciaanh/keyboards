@@ -6,3 +6,22 @@ https://github.com/Sleepdealr/Kingsaver-Replacement-PCB
 
 https://github.com/Sleepdealr/RP2040-designguide
 https://github.com/Sleepdealr/RPAD
+
+
+
+
+
+Indicators
+
+bool rgb_matrix_indicators_advanced_user(uint8_t led_min, uint8_t led_max) {
+    if (host_keyboard_led_state().caps_lock) {
+        // for (uint8_t i = led_min; i < led_max; i++) {
+        //     if (g_led_config.flags[i] & LED_FLAG_KEYLIGHT) {
+        //         rgb_matrix_set_color(i, RGB_RED);
+        //     }
+        // }
+        rgb_matrix_set_color(53, RGB_RED);
+    }
+    
+    return false;
+}
